@@ -1020,6 +1020,16 @@
 			"settings": {
 				"foreground": "#ff8f40"
 			}
+		},
+		{
+			"name": "GITIGNORE",
+			"scope": [
+				"text.gitignore"
+			],
+			"settings": {
+				"foreground": "#ffd76d",
+				"fontStyle": "italic"
+			}
 		}
 	],
 }
