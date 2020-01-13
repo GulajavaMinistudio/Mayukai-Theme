@@ -1,0 +1,26 @@
+{
+    "name": "mayukaivscode",
+    "displayName": "Mayukai",
+    "description": "Dark theme based on Ayu Theme, Andromeda Theme, and some Material Colors. ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mayukai Mirage",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mayukai-mirage-color-theme.json"
+            },
+            {
+                "label": "Mayukai Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mayukai-dark-color-theme.json"
+            }
+        ]
+    }
+}
