@@ -4,9 +4,9 @@
 
 Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy readibility syntax. This theme is inspired from mixed  color swatch in Ayu Theme, Material Theme, Monokai, and Andromeda. Those color are adjusted in  Mayukai theme so it suitable for all day long programming work.
 
-## Install
+## Install in VS Code/VS Codium
 
-Open Visual Studio Code Market Place in your Visual Studio Code or VSCodium text editor, and search Mayukai. Hit install button, and after finishing install, go to ```Preferences > Color Theme > Mayukai Dark or Mayukai Mirage```.
+Open Visual Studio Code Market Place in your Visual Studio Code or VS Codium text editor, and search Mayukai. Hit install button, and after finishing install, go to ```Preferences > Color Theme > Mayukai Dark or Mayukai Mirage```.
 
 ## Development
 
@@ -32,3 +32,11 @@ We know creating syntax theme that run on every syntax in every programming lang
 ---
 
 ## Screenshot
+
+### Mayukai Mirage
+
+![Screenshot1](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo1.png)
+
+### Mayukai Dark
+
+![Screenshot2](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo2.png)
