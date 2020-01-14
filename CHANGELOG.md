@@ -8,6 +8,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
-## [0.5.0 - 14012020]
+## [0.8.0 - 14012020]
 
 - Initial release for Mayukai Theme.
