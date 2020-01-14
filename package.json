@@ -5,12 +5,13 @@
         "name": "GulajavaMinistudio"
     },
     "publisher": "GulajavaMinistudio",
-    "description": "Dark theme based on Ayu Theme, Andromeda Theme, and some Material Colors. ",
+    "description": "Dark theme based on Ayu Theme, Andromeda Theme, Monokai, and some Material Colors. ",
     "version": "0.5.0",
     "icon": "color-guide-mayukai.png",
     "engines": {
         "vscode": "^1.41.0"
     },
+    "license": "MIT",
     "categories": [
         "Themes"
     ],

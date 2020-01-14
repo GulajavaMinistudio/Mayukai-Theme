@@ -1,13 +1,34 @@
 # README
+
 ## Mayukai Theme
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy readibility syntax. This theme is inspired from mixed  color swatch in Ayu Theme, Material Theme, Monokai, and Andromeda. Those color are adjusted in  Mayukai theme so it suitable for all day long programming work.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Install
+
+Open Visual Studio Code Market Place in your Visual Studio Code or VSCodium text editor, and search Mayukai. Hit install button, and after finishing install, go to ```Preferences > Color Theme > Mayukai Dark or Mayukai Mirage```.
+
+## Development
+
+This theme is using base color swatch from Ayu, with some adjustment for syntax coloring. Template for this theme is generated using Ayu Color Generator from [Ayu Theme](https://github.com/ayu-theme/vscode-ayu).
+
+## Thank you for
+
+Thank you for everyone for creating these amazing theme in VS Code that inspire in creating Mayukai Theme, feel free to check and try this out.
+
+* [Ayu Theme](https://github.com/ayu-theme/vscode-ayu) and for [Ayu color](https://github.com/ayu-theme/ayu-colors) swatch.
+* [Material Theme](https://github.com/material-theme/vsc-material-theme)
+* [Andromeda Theme](https://github.com/EliverLara/Andromeda)
+* [Monokai theme](https://github.com/microsoft/vscode/tree/master/extensions/theme-monokai) that built in on VS Code
+
+---
+
+### Issue and Bug Report
+
+We know creating syntax theme that run on every syntax in every programming language is hard, and we know that Mayukai theme is far from perfect. This theme will be updated regulary for coloring adjustment. And if you find any issue or bug in this theme, feel free to make an Issue in this repository.
 
 **Enjoy!**
+
+---
+
+## Screenshot
