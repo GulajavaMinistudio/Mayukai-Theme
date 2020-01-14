@@ -1,10 +1,14 @@
 # README
 
-<p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/drawing_mayukai_heros_resize.png">
-</p>
-
 ## Mayukai Theme
+
+<div align="center">
+
+[![vscode](https://img.shields.io/badge/VS%20Code-Theme-success?style=for-the-badge)](https://github.com/GulajavaMinistudio/Mayukai-Theme) [![indonesiamessage](https://img.shields.io/badge/FROM-INDONESIA%20WITH%20LOVE-red?style=for-the-badge)](https://github.com/GulajavaMinistudio/Mayukai-Theme)
+
+![heroPreview](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/drawing_mayukai_heros_resize.png)
+
+</div>
 
 Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy readibility syntax. This theme is inspired from mixed  color swatch in Ayu Theme, Material Theme, Monokai, and Andromeda. Those color are adjusted in  Mayukai theme so it suitable for all day long programming work.
 
@@ -14,7 +18,7 @@ Open Visual Studio Code Market Place in your Visual Studio Code or VS Codium tex
 
 ## Development
 
-This theme is using base color swatch from Ayu, with some adjustment for syntax coloring. Template for this theme is generated using Ayu Color Generator from [Ayu Theme](https://github.com/ayu-theme/vscode-ayu).
+This theme is using base color swatch from Ayu, with some adjustment for syntax coloring. Template for this theme is generated using Ayu Color Generator from [Ayu Theme](https://github.com/ayu-theme/vscode-ayu). Documentation used for creating this theme in [VS Code Theming API](https://code.visualstudio.com/api/references/theme-color).
 
 ## Thank you for
 
