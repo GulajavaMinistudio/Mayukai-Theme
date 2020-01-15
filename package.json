@@ -28,9 +28,19 @@
                 "path": "./themes/Mayukai-mirage-color-theme.json"
             },
             {
+                "label": "Mayukai Mirage Darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mayukai-mirage-darker-color-theme.json"
+            },
+            {
                 "label": "Mayukai Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Mayukai-dark-color-theme.json"
+            },
+            {
+                "label": "Mayukai Darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mayukai-darker-color-theme.json"
             }
         ]
     }
