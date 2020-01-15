@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [0.9.0 - 16122020]
+
+- Add darker variant.
+- Make background color more contrast.
+
 ## [0.8.0 - 14012020]
 
 - Initial release for Mayukai Theme.
