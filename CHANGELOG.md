@@ -8,7 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
-## [0.9.0 - 16122020]
+## [0.9.1 - 17012020]
+
+- Add coloring for support variable in TypeScript.
+- Updated screenshot demo.
+
+## [0.9.0 - 16012020]
 
 - Add darker variant.
 - Make background color more contrast.

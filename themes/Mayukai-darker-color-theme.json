@@ -293,6 +293,15 @@
 			}
 		},
 		{
+			"name": "Language TypeScript Variable Support",
+			"scope": [
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#ffa759"
+			}
+		},
+		{
 			"name": "Storage",
 			"scope": [
 				"storage"
