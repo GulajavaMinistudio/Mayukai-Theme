@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.0.0 - 17012020]
+
+- Bump to version 1.0.0 stable.
+- Updated screenshot demo.
+
+
 ## [0.9.1 - 17012020]
 
 - Add coloring for support variable in TypeScript.

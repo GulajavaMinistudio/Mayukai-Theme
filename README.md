@@ -39,12 +39,20 @@ We know creating syntax theme that run on every syntax in every programming lang
 
 ---
 
-## Screenshot
+## Screenshot Demo
 
-### Mayukai Mirage
+### Mayukai Mirage JavaScript Syntax
 
 ![Screenshot1](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo1.png)
 
-### Mayukai Dark
+### Mayukai Mirage HTML Syntax
 
 ![Screenshot2](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo2.png)
+
+### Mayukai Mirage CSS SCSS Syntax
+
+![Screenshot3](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo3.png)
+
+### Mayukai Mirage JSON Syntax
+
+![Screenshot3](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo4.png)
