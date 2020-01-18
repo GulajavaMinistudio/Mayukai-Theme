@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![vscode](https://img.shields.io/badge/VS%20Code-Theme-success?style=for-the-badge)](https://github.com/GulajavaMinistudio/Mayukai-Theme) [![indonesiamessage](https://img.shields.io/badge/FROM-INDONESIA%20WITH%20LOVE-red?style=for-the-badge)](https://github.com/GulajavaMinistudio/Mayukai-Theme)
+[![vscode](https://img.shields.io/badge/VS%20Code-Theme-success?style=for-the-badge&labelColor=ffa323&color=ff6337)](https://github.com/GulajavaMinistudio/Mayukai-Theme) [![indonesiamessage](https://img.shields.io/badge/FROM-INDONESIA%20WITH%20LOVE-red?style=for-the-badge&labelColor=f66767&color=f0134d)](https://github.com/GulajavaMinistudio/Mayukai-Theme)
 
 ![heroPreview](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/drawing_mayukai_heros_resize.png)
 
@@ -22,7 +22,7 @@ This theme is using base color swatch from Ayu, with some adjustment for syntax 
 
 ## Thank you for
 
-Thank you for everyone for creating these amazing theme in VS Code that inspire in creating Mayukai Theme, feel free to check and try this out.
+Thank you to everyone who create these amazing theme in VS Code that inspires Mayukai Theme, feel free to check and try this out.
 
 * [Ayu Theme](https://github.com/ayu-theme/vscode-ayu) and for [Ayu color](https://github.com/ayu-theme/ayu-colors) swatch.
 * [Material Theme](https://github.com/material-theme/vsc-material-theme)
