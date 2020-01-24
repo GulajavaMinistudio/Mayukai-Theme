@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.0.2 - 24012020]
+
+- Fixing String template literals color.
+- Updating Readme file.
+
 ## [1.0.1 - 18012020]
 
 - Fixing text color in hint dialog, hover dialog, and suggestion dialog.

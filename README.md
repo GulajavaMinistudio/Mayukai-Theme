@@ -10,7 +10,7 @@
 
 </div>
 
-Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy readibility syntax. This theme is inspired from mixed  color swatch in Ayu Theme, Material Theme, Monokai, and Andromeda. Those color are adjusted in  Mayukai theme so it suitable for all day long programming work.
+Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy readibility syntax. This theme is inspired from mixed  color swatch in Ayu Theme, Material Theme, Monokai, and Andromeda. These color are adjusted in  Mayukai theme so it suitable for all day long programming work.
 
 ## Install in VS Code/VS Codium
 

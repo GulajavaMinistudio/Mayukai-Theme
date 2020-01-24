@@ -993,7 +993,9 @@
 			"name": "TEMPLATE LITERAL",
 			"scope": [
 				"punctuation.quasi.element.begin",
-				"punctuation.quasi.element.end"
+				"punctuation.quasi.element.end",
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
 				"foreground": "#ffa759",
