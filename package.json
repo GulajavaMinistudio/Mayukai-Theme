@@ -5,7 +5,7 @@
         "name": "GulajavaMinistudio"
     },
     "publisher": "GulajavaMinistudio",
-    "description": "Dark theme based on Ayu Theme, Andromeda Theme, Monokai, and some Material Colors.",
+    "description": "Dark theme based on mixing swatch of Ayu Theme, Andromeda Theme, Monokai, Material Colors, and Original Gruvbox Colors.",
     "version": "1.0.2",
     "icon": "color-guide-mayukai.png",
     "engines": {
