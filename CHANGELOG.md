@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.1.0 - 31012020]
+
+- Add Mayukai Mirage Theme with Gruvbox Original Scheme.
+- Update Readme File
+
 ## [1.0.2 - 24012020]
 
 - Fixing String template literals color.

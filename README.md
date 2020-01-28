@@ -16,6 +16,16 @@ Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy
 
 Open Visual Studio Code Market Place in your Visual Studio Code or VS Codium text editor, and search Mayukai. Hit install button, and after finishing install, go to ```Preferences > Color Theme > Mayukai Dark or Mayukai Mirage```.
 
+## List of Color Scheme
+
+This Mayukai Theme includes some color scheme for syntax coloring. There are :
+
+- Mayukai Mirage.
+- Mayukai Mirage Darker.
+- Mayukai Dark.
+- Mayukai Darker.
+- Mayukai Mirage Gruvbox.
+
 ## Development
 
 This theme is using base color swatch from Ayu, with some adjustment for syntax coloring. Template for this theme is generated using Ayu Color Generator from [Ayu Theme](https://github.com/ayu-theme/vscode-ayu). Documentation used for creating this theme in [VS Code Theming API](https://code.visualstudio.com/api/references/theme-color).
@@ -24,10 +34,11 @@ This theme is using base color swatch from Ayu, with some adjustment for syntax 
 
 Thank you to everyone who create these amazing theme in VS Code that inspires Mayukai Theme, feel free to check and try this out.
 
-* [Ayu Theme](https://github.com/ayu-theme/vscode-ayu) and for [Ayu color](https://github.com/ayu-theme/ayu-colors) swatch.
-* [Material Theme](https://github.com/material-theme/vsc-material-theme)
-* [Andromeda Theme](https://github.com/EliverLara/Andromeda)
-* [Monokai theme](https://github.com/microsoft/vscode/tree/master/extensions/theme-monokai) that built in on VS Code
+- [Ayu Theme](https://github.com/ayu-theme/vscode-ayu) and for [Ayu color](https://github.com/ayu-theme/ayu-colors) swatch.
+- [Material Theme](https://github.com/material-theme/vsc-material-theme)
+- [Andromeda Theme](https://github.com/EliverLara/Andromeda)
+- [Monokai theme](https://github.com/microsoft/vscode/tree/master/extensions/theme-monokai) that built in on VS Code.
+- [Gruvbox Color Scheme](https://github.com/morhetz/gruvbox) by Pavel Pertsev.
 
 ---
 
