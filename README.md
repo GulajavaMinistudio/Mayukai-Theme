@@ -53,6 +53,8 @@ We know creating syntax theme that run on every syntax in every programming lang
 
 ## Screenshot Demo
 
+Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The recommended font for use with this theme is [Iosevka Font](https://github.com/be5invis/Iosevka).
+
 ### Mayukai Mirage JavaScript Syntax
 
 ![Screenshot1](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo1.png)
@@ -68,3 +70,7 @@ We know creating syntax theme that run on every syntax in every programming lang
 ### Mayukai Mirage JSON Syntax
 
 ![Screenshot3](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo4.png)
+
+### Mayukai Dark
+
+### Mayukai Gruvbox Darktooth

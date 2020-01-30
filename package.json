@@ -33,7 +33,7 @@
                 "path": "./themes/Mayukai-mirage-darker-color-theme.json"
             },
             {
-                "label": "Mayukai Mirage Gruvbox",
+                "label": "Mayukai Mirage Gruvbox Darktooth",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Mayukai-mirage-gruvbox-color-theme.json"
             },
