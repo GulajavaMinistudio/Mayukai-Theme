@@ -10,7 +10,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.1.0 - 31012020]
 
-- Add Mayukai Mirage Theme with Gruvbox Original Scheme.
+- Add Mayukai Mirage Theme with Gruvbox Original Scheme. Mayukai Mirage Gruvbox is using same logic with Mayukai Mirage scheme, but with base color from Gruvbox Original and Darktooth.
 - Update Readme File
 
 ## [1.0.2 - 24012020]
