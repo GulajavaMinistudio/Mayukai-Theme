@@ -254,6 +254,15 @@
 			}
 		},
 		{
+			"name": "Built-in constants Boolean",
+			"scope": [
+				"constant.language.boolean"
+			],
+			"settings": {
+				"foreground": "#d3869b"
+			}
+		},
+		{
 			"name": "Variable",
 			"scope": [
 				"variable"

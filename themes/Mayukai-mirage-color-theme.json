@@ -250,6 +250,15 @@
 			}
 		},
 		{
+			"name": "Built-in constants Boolean",
+			"scope": [
+				"constant.language.boolean"
+			],
+			"settings": {
+				"foreground": "#d4bfff"
+			}
+		},
+		{
 			"name": "Variable",
 			"scope": [
 				"variable"
@@ -521,7 +530,7 @@
 				"support.function.console",
 			],
 			"settings": {
-				"foreground": "#e6b673"
+				"foreground": "#ffd580"
 			}
 		},
 		{

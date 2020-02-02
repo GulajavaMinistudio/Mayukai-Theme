@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.1.1 - 02022020]
+
+- Fix some color function in Console and Logger.
+- Fix boolean coloring.
+
 ## [1.1.0 - 31012020]
 
 - Add Mayukai Mirage Theme with Gruvbox Original Scheme. This new scheme is using same theming logic with Mayukai Mirage scheme, but with base color from Gruvbox Original and Darktooth.
