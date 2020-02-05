@@ -300,6 +300,16 @@
 			}
 		},
 		{
+			"name": "Language variable Prototype",
+			"scope": [
+				"variable.language.prototype"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#d3869b"
+			}
+		},
+		{
 			"name": "Language variable This",
 			"scope": [
 				"variable.language.this"

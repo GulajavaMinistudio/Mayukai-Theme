@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.1.2 - 05022020]
+
+- Update color scheme of prototype method in Mayukai Gruvbox.
+
 ## [1.1.1 - 02022020]
 
 - Fix some color function in Console and Logger.
