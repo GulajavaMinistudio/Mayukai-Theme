@@ -553,6 +553,15 @@
 			}
 		},
 		{
+			"name": "Entity name Class ES6",
+			"scope": [
+				"entity.name.class"
+			],
+			"settings": {
+				"foreground": "#ff8f40"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
