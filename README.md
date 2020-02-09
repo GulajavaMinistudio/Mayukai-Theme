@@ -78,3 +78,7 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 ### Mayukai Gruvbox Darktooth
 
 ![Screenshot6](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo5.png)
+
+## Miscellaneous
+
+Mayukai theme also available in [Hyper Terminal](https://hyper.is/) . You can download and install Mayukai Hyper Terminal Theme in [this link](https://github.com/cevr/hyper-mayukai).
