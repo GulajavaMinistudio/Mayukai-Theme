@@ -8,6 +8,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.1.5 - 15022020]
+
+- Fix coloring for ES6 class and async await color in TypeScript language.
+- Fix coloring for function and method.
+- Adjust coloring for Built-in class and library.
+- Adjust coloring for text color.
+
 ## [1.1.4 - 15022020]
 
 - Fix coloring for ES6 class and async await color in TypeScript language.
