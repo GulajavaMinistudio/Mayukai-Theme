@@ -82,3 +82,5 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 ## Miscellaneous
 
 Mayukai theme also available in [Hyper Terminal](https://hyper.is/) . You can download and install Mayukai Hyper Terminal Theme in [this link](https://github.com/cevr/hyper-mayukai).
+
+Mayukai Theme work fine with other syntax highlighting extension, such as [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel) by Michael McDermott. But I recommended you to disable that extension if you find any problem with syntax coloring consistency in Mayukai Theme.

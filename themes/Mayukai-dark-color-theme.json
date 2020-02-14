@@ -339,7 +339,7 @@
 				"storage.modifier.async"
 			],
 			"settings": {
-				"foreground": "#ffa759",
+				"foreground": "#f07178",
 				"fontStyle": "italic"
 			}
 		},
@@ -384,6 +384,15 @@
 			"name": "Keyword Control Conditional",
 			"scope": [
 				"keyword.control.conditional"
+			],
+			"settings": {
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Keyword Control Try Catch",
+			"scope": [
+				"keyword.control.trycatch"
 			],
 			"settings": {
 				"foreground": "#f07178"
@@ -452,7 +461,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#95e6cb"
+				"foreground": "#FF8F40"
 			}
 		},
 		{
@@ -521,7 +530,7 @@
 				"support.macro"
 			],
 			"settings": {
-				"foreground": "#f28779"
+				"foreground": "#ffd580"
 			}
 		},
 		{
@@ -608,7 +617,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f29e74"
+				"foreground": "#f28779"
 			}
 		},
 		{
