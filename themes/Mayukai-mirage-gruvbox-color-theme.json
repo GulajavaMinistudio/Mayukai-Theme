@@ -77,7 +77,7 @@
 		"editor.foreground": "#ebdbb2",
 		"editorLineNumber.foreground": "#7c6f64",
 		"editorLineNumber.activeForeground": "#928374",
-		"editorCursor.foreground": "#fabd2f",
+		"editorCursor.foreground": "#ff4057",
 		"editor.selectionBackground": "#504945",
 		"editor.inactiveSelectionBackground": "#3c3836",
 		"editor.selectionHighlightBackground": "#3c3836",
@@ -189,7 +189,7 @@
 		"terminal.ansiBrightMagenta": "#d3869b",
 		"terminal.ansiBrightCyan": "#83a598",
 		"terminal.ansiBrightWhite": "#ebdbb2",
-		"terminalCursor.foreground": "#fabd2f",
+		"terminalCursor.foreground": "#ff4057",
 		"minimap.selectionHighlight": "#fabd2f",
 		"minimap.errorHighlight": "#fb4934",
 		"minimap.warningHighlight": "#fe8019"
