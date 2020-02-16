@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.1.6 - 17022020]
+
+- Adjust coloring for decorator and punctuation
+
 ## [1.1.5 - 15022020]
 
 - Fix coloring for ES6 class and async await color in TypeScript language.
