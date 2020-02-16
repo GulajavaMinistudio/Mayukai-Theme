@@ -10,7 +10,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.1.6 - 17022020]
 
-- Adjust coloring for decorator and punctuation
+- Adjust coloring for decorator and punctuation.
+- Adjust coloring variable in TypeScript and Python language.
 
 ## [1.1.5 - 15022020]
 
