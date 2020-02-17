@@ -25,6 +25,7 @@ This Mayukai Theme includes some color scheme for syntax coloring. There are :
 - Mayukai Dark.
 - Mayukai Darker.
 - Mayukai Mirage Gruvbox Darktooth.
+- Mayukai Mono
 
 ## Development
 

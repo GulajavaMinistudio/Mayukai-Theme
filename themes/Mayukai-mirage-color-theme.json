@@ -508,7 +508,8 @@
 				"meta.parameter"
 			],
 			"settings": {
-				"foreground": "#d4bfff"
+				"foreground": "#d4bfff",
+				"fontStyle": "italic"
 			}
 		},
 		{

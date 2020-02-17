@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.2.0 - 17022020]
+
+- Add new color Scheme with customized vivid Monokai color named Mayukai Mono.
+- Fix parameter variable coloring.
+
 ## [1.1.6 - 17022020]
 
 - Adjust coloring for decorator and punctuation.
