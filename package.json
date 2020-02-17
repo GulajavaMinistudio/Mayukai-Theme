@@ -46,6 +46,11 @@
                 "label": "Mayukai Darker",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Mayukai-darker-color-theme.json"
+            },
+            {
+                "label": "Mayukai Mono",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mayukai-mono-color-theme.json"
             }
         ]
     }
