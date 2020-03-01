@@ -21,8 +21,7 @@
         "url": "https://github.com/GulajavaMinistudio/Mayukai-Theme"
     },
     "contributes": {
-        "themes": [
-            {
+        "themes": [{
                 "label": "Mayukai Mirage",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Mayukai-mirage-color-theme.json"
@@ -51,6 +50,11 @@
                 "label": "Mayukai Mono",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Mayukai-mono-color-theme.json"
+            },
+            {
+                "label": "Mayukai Alucard",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mayukai-alucard-color-theme.json"
             }
         ]
     }
