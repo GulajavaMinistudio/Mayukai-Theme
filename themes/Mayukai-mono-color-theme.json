@@ -190,8 +190,7 @@
 		"terminal.ansiBrightWhite": "#ffffff",
 		"terminalCursor.foreground": "#ff4057"
 	},
-	"tokenColors":[
-		{
+	"tokenColors": [{
 			"name": "Comment",
 			"scope": [
 				"comment"
@@ -246,7 +245,7 @@
 				"constant.language"
 			],
 			"settings": {
-				"foreground": "#d4bfff"
+				"foreground": "#f27983"
 			}
 		},
 		{

@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.3.0 - WIP]
+
+- Add Mayukai Alucard Theme. New Mayukai color scheme based on Dracula color swatch, but with some adjustment that meet with other Mayukai theme.
+- Fix syntax coloring for built-in constant variable.
+
 ## [1.2.0 - 17022020]
 
 - Add new color Scheme with customized vivid Monokai color named Mayukai Mono.
