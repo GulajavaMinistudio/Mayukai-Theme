@@ -42,6 +42,7 @@ Thank you to everyone who create these amazing theme in VS Code that inspires Ma
 - [Monokai theme](https://github.com/microsoft/vscode/tree/master/extensions/theme-monokai) that built in on VS Code.
 - [Gruvbox Color Scheme](https://github.com/morhetz/gruvbox) by Pavel Pertsev.
 - [Darktooth Color Scheme](https://github.com/emacsfodder/emacs-theme-darktooth) .
+- [Dracula Color Scheme](https://github.com/dracula/dracula-theme) .
 
 ---
 
