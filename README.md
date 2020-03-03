@@ -10,11 +10,11 @@
 
 </div>
 
-Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy readibility syntax. This theme is inspired from mixed  color swatch in Ayu Theme, Material Theme, Monokai, Andromeda, and Gruvbox Darktooth Original Colors. These color are adjusted in  Mayukai theme so it suitable for all day long programming work.
+Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy readibility syntax. This theme is inspired from mixed color swatch in Ayu Theme, Material Theme, Monokai, Andromeda, and Gruvbox Darktooth Original Colors. These color are adjusted in Mayukai theme so it suitable for all day long programming work.
 
 ## Install in VS Code/VS Codium
 
-Open Visual Studio Code Market Place in your Visual Studio Code or VS Codium text editor, and search Mayukai. Hit install button, and after finishing install, go to ```Preferences > Color Theme > Mayukai Dark or Mayukai Mirage```.
+Open Visual Studio Code Market Place in your Visual Studio Code or VS Codium text editor, and search Mayukai. Hit install button, and after finishing install, go to `Preferences > Color Theme > Mayukai Dark or Mayukai Mirage`.
 
 ## List of Color Scheme
 
@@ -25,7 +25,8 @@ This Mayukai Theme includes some color scheme for syntax coloring. There are :
 - Mayukai Dark.
 - Mayukai Darker.
 - Mayukai Mirage Gruvbox Darktooth.
-- Mayukai Mono
+- Mayukai Mono.
+- Mayukai Alucard.
 
 ## Development
 
@@ -79,6 +80,14 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 ### Mayukai Gruvbox Darktooth
 
 ![Screenshot6](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo5.png)
+
+### Mayukai Mono
+
+![Screenshot7](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo7.png)
+
+### Mayukai Alucard
+
+![Screenshot8](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo8.png)
 
 ## Miscellaneous
 
