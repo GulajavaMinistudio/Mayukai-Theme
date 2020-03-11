@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.3.1 - 12032020]
+
+- Fix function coloring to support Semantic Highlighting in VS Code 1.43.x and up.
+
 ## [1.3.0 - 03032020]
 
 - Add Mayukai Alucard Theme. New Mayukai color scheme based on Dracula color swatch, but with some adjustment that meet with other Mayukai theme.
