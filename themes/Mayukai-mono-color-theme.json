@@ -484,15 +484,6 @@
 			}
 		},
 		{
-			"name": "Function name",
-			"scope": [
-				"entity.name.function"
-			],
-			"settings": {
-				"foreground": "#FFD866"
-			}
-		},
-		{
 			"name": "Function arguments",
 			"scope": [
 				"variable.parameter",
@@ -551,6 +542,15 @@
 			],
 			"settings": {
 				"foreground": "#f28779"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#FFD866"
 			}
 		},
 		{
