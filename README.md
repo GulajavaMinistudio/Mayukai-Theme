@@ -90,6 +90,18 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 
 ![Screenshot8](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo8.png)
 
+## Known Issue
+
+VS Code 1.43 bring new feature called Semantic Highlighting. Unfortunately, this feature make VS Code theme and syntax highlighting broken and usable. You can disable this feature in VS Code Settings.
+
+Put this line in your VS Code ***settings.json*** file.
+
+```sh
+"editor.semanticHighlighting.enabled": false
+```
+
+Or search in your VS Code Settings with "semantic" keyword. And disable / remove checkbox from ***Editor > Semantic Highlighting: Enabled*** setting.
+
 ## Miscellaneous
 
 Mayukai theme also available in [Hyper Terminal](https://hyper.is/) . You can download and install Mayukai Hyper Terminal Theme in [this link](https://github.com/cevr/hyper-mayukai).
