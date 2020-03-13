@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.3.2 - 13032020]
+
+- Update README for known Issue with VS Code bugs in Semantic Highlighting.
+
 ## [1.3.1 - 12032020]
 
 - Fix function coloring to support Semantic Highlighting in VS Code 1.43.x and up.
