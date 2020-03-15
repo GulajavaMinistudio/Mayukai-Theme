@@ -28,6 +28,11 @@
                 "path": "./themes/Mayukai-mirage-color-theme.json"
             },
             {
+                "label": "Mayukai Mirage Semantic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mayukai-mirage-color-theme-semantic.json"
+            },
+            {
                 "label": "Mayukai Mirage Darker",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Mayukai-mirage-darker-color-theme.json"
