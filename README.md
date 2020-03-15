@@ -104,6 +104,10 @@ Or search in your VS Code Settings with "semantic" keyword. And disable or remov
 
 ![Semantic Setting](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/semantic/bugs_semantic1.png)
 
+## Mayukai Theme for Semantic Highlighting VS Code
+
+If you still want use Semantic Highlighting in VS Code 1.43.x and up. You can use Mayukai Theme that specially designed for Semantic Highlighting. Just select **Mayukai Mirage Semantic** Theme in Color Theme Setting in your VS Code.
+
 ## Miscellaneous
 
 Mayukai theme also available in [Hyper Terminal](https://hyper.is/) . You can download and install Mayukai Hyper Terminal Theme in [this link](https://github.com/cevr/hyper-mayukai).
