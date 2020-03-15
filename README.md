@@ -22,6 +22,7 @@ This Mayukai Theme includes some color scheme for syntax coloring. There are :
 
 - Mayukai Mirage.
 - Mayukai Mirage Darker.
+- Mayukai Mirage Semantic (for VS Code Semantic Highlighting).
 - Mayukai Dark.
 - Mayukai Darker.
 - Mayukai Mirage Gruvbox Darktooth.
