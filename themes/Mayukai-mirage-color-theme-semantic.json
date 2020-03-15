@@ -284,8 +284,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#dadbc0",
-				"fontStyle": "italic"
+				"foreground": "#dadbc0"
 			}
 		},
 		{
