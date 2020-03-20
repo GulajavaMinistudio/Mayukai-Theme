@@ -11,7 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.3.5 - 21032020]
 
 - Add support for Semantic Highlighting in VS Code 1.43.x , with new theme called Mayukai Semantic Mirage. This theme specifically built to match new VS Code Semantic Highlighting.
-- Now, Mayukai Color Theme not applying Semantic Highlighting by default. You can opt in manually in VS Code Settings.
+- For other Mayukai Color Theme are not applying Semantic Highlighting by default. You can opt in manually in VS Code Settings.
 
 ## [1.3.4 - 16032020]
 
