@@ -190,6 +190,7 @@
 		"terminal.ansiBrightWhite": "#ffffff",
 		"terminalCursor.foreground": "#ff4057"
 	},
+	"semanticHighlighting": true,
 	"tokenColors": [
 		{
 			"name": "Comment",
