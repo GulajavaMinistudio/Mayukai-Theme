@@ -194,6 +194,7 @@
 		"minimap.errorHighlight": "#fb4934",
 		"minimap.warningHighlight": "#fe8019"
 	},
+	"semanticHighlighting": false,
 	"tokenColors": [{
 			"name": "Comment",
 			"scope": [
