@@ -8,7 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
-## [1.3.6 - 27032020]
+## [1.3.6 - 28032020]
 
 - Updating Readme for Workaround in Semantic Highlighting.
 
