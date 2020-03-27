@@ -22,7 +22,7 @@ This Mayukai Theme includes some color scheme for syntax coloring. There are :
 
 - Mayukai Mirage.
 - Mayukai Mirage Darker.
-- Mayukai Mirage Semantic (for VS Code Semantic Highlighting).
+- Mayukai Semantic Mirage (for VS Code Semantic Highlighting).
 - Mayukai Dark.
 - Mayukai Darker.
 - Mayukai Mirage Gruvbox Darktooth.
@@ -57,7 +57,7 @@ We know creating syntax theme that run on every syntax in every programming lang
 
 ## Preview and Screenshot
 
-Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The recommended font for use with this theme is [Iosevka Font](https://github.com/be5invis/Iosevka).
+Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The recommended font for use with this theme is [Iosevka Font](https://github.com/be5invis/Iosevka) or using our custom build font named [Iosevka Mayukai](https://github.com/Iosevka-Mayukai/Iosevka-Mayukai).
 
 ### Mayukai Mirage JavaScript Syntax
 
@@ -101,13 +101,25 @@ Put this line in your VS Code **_settings.json_** file.
 "editor.semanticHighlighting.enabled": false
 ```
 
+```sh
+"editor.tokenColorCustomizations": { "semanticHighlighting": false },
+```
+
+Related Issue :
+
+[https://github.com/microsoft/vscode/issues/92308](https://code.visualstudio.com/docs/getstarted/themes#_semantic-highlighting)
+
+Reference :
+
+[https://code.visualstudio.com/docs/getstarted/themes#_semantic-highlighting](https://code.visualstudio.com/docs/getstarted/themes#_semantic-highlighting)
+
 Or search in your VS Code Settings with "semantic" keyword. And disable or remove checkbox from **_Editor > Semantic Highlighting: Enabled_** setting.
 
 ![Semantic Setting](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/semantic/bugs_semantic1.png)
 
 ## Mayukai Theme for Semantic Highlighting VS Code
 
-If you still want use Semantic Highlighting in VS Code 1.43.x and up. You can use Mayukai Theme that specially designed for Semantic Highlighting. Just select **Mayukai Mirage Semantic** Theme in Color Theme Setting in your VS Code.
+If you still want use Semantic Highlighting in VS Code 1.43.x and up. You can use Mayukai Theme that specially designed for Semantic Highlighting. Just select **Mayukai Semantic Mirage** Theme in Color Theme Setting in your VS Code.
 
 ## Miscellaneous
 
