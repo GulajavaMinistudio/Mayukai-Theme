@@ -22,7 +22,7 @@ This Mayukai Theme includes some color scheme for syntax coloring. There are :
 
 - Mayukai Mirage.
 - Mayukai Mirage Darker.
-- Mayukai Semantic Mirage (for VS Code Semantic Highlighting).
+- Mayukai Semantic Mirage (specially designed for VS Code Semantic Highlighting feature).
 - Mayukai Dark.
 - Mayukai Darker.
 - Mayukai Mirage Gruvbox Darktooth.
@@ -111,7 +111,11 @@ Related Issue :
 
 Reference :
 
-[https://code.visualstudio.com/docs/getstarted/themes#_semantic-highlighting](https://code.visualstudio.com/docs/getstarted/themes#_semantic-highlighting)
+[https://code.visualstudio.com/docs/getstarted/themes#\_semantic-highlighting](https://code.visualstudio.com/docs/getstarted/themes#_semantic-highlighting)
+
+Reference :
+
+[https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview)
 
 Or search in your VS Code Settings with "semantic" keyword. And disable or remove checkbox from **_Editor > Semantic Highlighting: Enabled_** setting.
 
