@@ -191,6 +191,63 @@
 		"terminalCursor.foreground": "#ff4057"
 	},
 	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"namespace": "#ffb454",
+		"type": "#ff8f40",
+		"struct": "#ffa759",
+		"class": "#f07178",
+		"class.readonly": {
+			"foreground": "#ffd580",
+			"fontStyle": ""
+		},
+		"class.defaultLibrary": {
+			"foreground": "#F28779",
+			"fontStyle": ""
+		},
+		"class.declaration": {
+			"foreground": "#ff8f40",
+			"fontStyle": ""
+		},
+		"interface": "#ff8f40",
+		"enum": "#9dd2bb",
+		"function": "#ffd580",
+		"member": {
+			"foreground": "#ffd580",
+			"fontStyle": ""
+		},
+		"macro": "#ffd580",
+		"variable": "#dadbc0",
+		"variable.declaration.readonly": {
+			"foreground": "#d4bfff",
+			"fontStyle": ""
+		},
+		"variable.declaration": {
+			"foreground": "#dadbc0",
+			"fontStyle": ""
+		},
+		"variable.defaultLibrary": {
+			"foreground": "#f28779",
+			"fontStyle": ""
+		},
+		"parameter": "#d4bfff",
+		"typeParameter": "#ff8f40",
+		"property": "#dadbc0",
+		"property.declaration": "#dadbc0",
+		"property.readonly": "#d4bfff",
+		"property.defaultLibrary": {
+			"foreground": "#ffa759",
+			"fontStyle": ""
+		},
+		"enumMember": "#9dd2bb",
+		"event": "#f29e74",
+		"label": "#b3b1ad",
+		"comment": "#5c6773",
+		"string": "#bae67e",
+		"keyword": "#ffa759",
+		"number": "#9dd2bb",
+		"regexp": "#95e6cb",
+		"operator": "#ff6188"
+	},
 	"tokenColors": [
 		{
 			"name": "Comment",

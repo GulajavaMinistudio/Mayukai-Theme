@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.4.0 - 11042020]
+
+- Adjustment editor color and sidebar color in Mayukai Alucard.
+- More semantic highlighting support in **Mayukai Semantic Mirage** Theme.
+
 ## [1.3.6 - 28032020]
 
 - Updating Readme for Workaround in Semantic Highlighting.
