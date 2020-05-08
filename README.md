@@ -93,7 +93,7 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 
 ## Known Issues
 
-VS Code 1.45 and newer bring new feature called Semantic Highlighting. Unfortunately, this feature make VS Code theme and syntax highlighting broken and unusable. You can disable this feature in VS Code Settings.
+VS Code 1.45 and newer versions, bring new feature called Semantic Highlighting. Unfortunately, this feature make VS Code theme and syntax highlighting broken and unusable. You can disable this feature in VS Code Settings.
 
 Put this line in your VS Code **_settings.json_** file.
 
@@ -123,7 +123,7 @@ Or search in your VS Code Settings with "semantic" keyword. And disable or remov
 
 ## Mayukai Theme for Semantic Highlighting VS Code
 
-If you still want use Semantic Highlighting in VS Code 1.43.x and up. You can use Mayukai Theme that specially designed for Semantic Highlighting. Just select **Mayukai Semantic Mirage** Theme in Color Theme Setting in your VS Code.
+If you still want use Semantic Highlighting in VS Code 1.45.x and newer versions. You can use Mayukai Theme that specially designed for Semantic Highlighting. Just select **Mayukai Semantic Mirage** Theme in Color Theme Setting in your VS Code.
 
 ## Miscellaneous
 
