@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.4.1 - 10052020]
+
+- Fix Readme file.
+
 ## [1.4.0 - 11042020]
 
 - Adjustment editor color and sidebar color in Mayukai Alucard.
