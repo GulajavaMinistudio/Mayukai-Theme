@@ -93,7 +93,7 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 
 ## Known Issues
 
-VS Code 1.43 bring new feature called Semantic Highlighting. Unfortunately, this feature make VS Code theme and syntax highlighting broken and unusable. You can disable this feature in VS Code Settings.
+VS Code 1.45 and newer bring new feature called Semantic Highlighting. Unfortunately, this feature make VS Code theme and syntax highlighting broken and unusable. You can disable this feature in VS Code Settings.
 
 Put this line in your VS Code **_settings.json_** file.
 
@@ -102,7 +102,7 @@ Put this line in your VS Code **_settings.json_** file.
 ```
 
 ```sh
-"editor.tokenColorCustomizations": { "semanticHighlighting": false },
+"editor.semanticTokenColorCustomizations": { "enabled": false }
 ```
 
 Related Issue :
