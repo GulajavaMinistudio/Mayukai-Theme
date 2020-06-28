@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.5.0 - 29062020]
+
+- Mayukai Mono and Mayukai Alucard variant now use same darker background as Mayukai Mirage Darker.
+
 ## [1.4.1 - 10052020]
 
 - Fix Readme file.
