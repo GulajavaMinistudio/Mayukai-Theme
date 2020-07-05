@@ -89,7 +89,7 @@
 		"editor.findMatchHighlightBorder": "#ffcc6659",
 		"editor.findRangeHighlightBackground": "#262f3e",
 		"editor.findRangeHighlightBorder": "#1f243000",
-		"editor.lineHighlightBackground": "#191e2a",
+		"editor.lineHighlightBackground": "#141925",
 		"editorLink.activeForeground": "#ffcc66",
 		"editor.rangeHighlightBackground": "#191e2a",
 		"editorWhitespace.foreground": "#707a8c66",
@@ -191,7 +191,8 @@
 		"terminalCursor.foreground": "#ff4057"
 	},
 	"semanticHighlighting": false,
-	"tokenColors": [{
+	"tokenColors": [
+		{
 			"name": "Comment",
 			"scope": [
 				"comment"
