@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.5.1 - 06072020]
+
+- Fix contrast color on Line Highlight Background.
+
 ## [1.5.0 - 29062020]
 
 - Mayukai Mono and Mayukai Alucard variant now use same darker background as Mayukai Mirage Darker.

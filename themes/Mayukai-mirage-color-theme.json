@@ -191,7 +191,8 @@
 		"terminalCursor.foreground": "#ff4057"
 	},
 	"semanticHighlighting": false,
-	"tokenColors": [{
+	"tokenColors": [
+		{
 			"name": "Comment",
 			"scope": [
 				"comment"
