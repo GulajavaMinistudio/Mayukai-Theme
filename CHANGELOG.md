@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.5.2 - 02092020]
+
+- Fix editor background with more darker color in Mayukai Mirage theme.
+
 ## [1.5.1 - 06072020]
 
 - Fix contrast color on Line Highlight Background.
