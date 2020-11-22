@@ -27,7 +27,7 @@
 		"inputValidation.infoBorder": "#95e6cb",
 		"inputValidation.warningBackground": "#1f2430",
 		"inputValidation.warningBorder": "#ffd580",
-		"scrollbar.shadow": "#191e2a",
+		"scrollbar.shadow": "#141824",
 		"scrollbarSlider.background": "#707a8c66",
 		"scrollbarSlider.hoverBackground": "#707a8c99",
 		"scrollbarSlider.activeBackground": "#707a8cb3",
@@ -53,12 +53,12 @@
 		"activityBar.activeFocusBorder": "#ffcc66",
 		"sideBar.background": "#191e2a",
 		"sideBar.foreground": "#b8b0b0",
-		"sideBar.border": "#141925",
+		"sideBar.border": "#191e2a",
 		"sideBarTitle.foreground": "#707a8c",
 		"sideBarSectionHeader.background": "#191e2a",
 		"sideBarSectionHeader.foreground": "#707a8c",
-		"editorGroup.border": "#141925",
-		"editorGroup.emptyBackground": "#1f2430",
+		"editorGroup.border": "#141824",
+		"editorGroup.emptyBackground": "#191e2a",
 		"editorGroupHeader.noTabsBackground": "#1f2430",
 		"editorGroupHeader.tabsBackground": "#1f2430",
 		"editorGroupHeader.tabsBorder": "#141824",
@@ -99,7 +99,7 @@
 		"editorCodeLens.foreground": "#5c6773",
 		"editorBracketMatch.background": "#707a8c4d",
 		"editorBracketMatch.border": "#707a8c99",
-		"editorOverviewRuler.border": "#191e2a",
+		"editorOverviewRuler.border": "#141824",
 		"editorOverviewRuler.modifiedForeground": "#77a8d999",
 		"editorOverviewRuler.addedForeground": "#a6cc7099",
 		"editorOverviewRuler.deletedForeground": "#f2798399",
@@ -479,6 +479,15 @@
 			],
 			"settings": {
 				"foreground": "#FF8F40"
+			}
+		},
+		{
+			"name": "Entity Name Type Class",
+			"scope": [
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#f07178"
 			}
 		},
 		{
