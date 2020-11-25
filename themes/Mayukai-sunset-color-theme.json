@@ -229,7 +229,7 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#f2ae49"
+				"foreground": "#f27983"
 			}
 		},
 		{
@@ -247,7 +247,7 @@
 				"constant.language"
 			],
 			"settings": {
-				"foreground": "#fa8d3e"
+				"foreground": "#F29668"
 			}
 		},
 		{
@@ -294,7 +294,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ffa759"
+				"foreground": "#ed9269"
 			}
 		},
 		{
@@ -339,6 +339,15 @@
 			"name": "Keyword",
 			"scope": [
 				"keyword"
+			],
+			"settings": {
+				"foreground": "#ffa759"
+			}
+		},
+		{
+			"name": "Keyword Control Flow",
+			"scope": [
+				"keyword.control.flow"
 			],
 			"settings": {
 				"foreground": "#ffa759"
@@ -408,7 +417,7 @@
 			],
 			"settings": {
 				"foreground": "#ffa759",
-				"fontStyle": "",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -436,7 +445,7 @@
 				"meta.parameter"
 			],
 			"settings": {
-				"foreground": "#FC9867",
+				"foreground": "#DADBC0",
 				"fontStyle": "italic"
 			}
 		},
@@ -526,7 +535,7 @@
 				"text.html.derivative"
 			],
 			"settings": {
-				"foreground": "#dadbc0",
+				"foreground": "#dadbc0"
 			}
 		},
 		{
@@ -881,7 +890,7 @@
 				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
-				"foreground": "#ffa759",
+				"foreground": "#ffa759"
 			}
 		},
 		{
@@ -902,7 +911,7 @@
 				"meta.brace.square"
 			],
 			"settings": {
-				"foreground": "#b3b1ad",
+				"foreground": "#b3b1ad"
 			}
 		},
 		{
@@ -911,7 +920,7 @@
 				"string.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f29e74",
+				"foreground": "#f29e74"
 			}
 		},
 		{
@@ -920,7 +929,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#e6b450",
+				"foreground": "#e6b450"
 			}
 		},
 		{
@@ -929,7 +938,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f2ae49",
+				"foreground": "#f2ae49"
 			}
 		},
 		{
@@ -938,7 +947,7 @@
 				"constant.language.json"
 			],
 			"settings": {
-				"foreground": "#d4bfff",
+				"foreground": "#d4bfff"
 			}
 		},
 		{
@@ -947,7 +956,7 @@
 				"constant.numeric.json"
 			],
 			"settings": {
-				"foreground": "#f27983",
+				"foreground": "#f27983"
 			}
 		},
 		{
@@ -957,8 +966,8 @@
 				"constant.other.object.key"
 			],
 			"settings": {
-				"foreground": "#e6b450",
+				"foreground": "#e6b450"
 			}
-		},
+		}
 	]
 }
