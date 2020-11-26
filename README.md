@@ -28,6 +28,7 @@ This Mayukai Theme includes some color scheme for syntax coloring. There are :
 - Mayukai Mirage Gruvbox Darktooth.
 - Mayukai Mono.
 - Mayukai Alucard.
+- Mayukai Sunset.
 
 ## Development
 
@@ -90,6 +91,10 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 ### Mayukai Alucard
 
 ![Screenshot8](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo8.png)
+
+### Mayukai Sunset
+
+![Screenshot9](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo9.png)
 
 ## Known Issues
 
