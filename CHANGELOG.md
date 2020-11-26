@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.6.0 - 27112020]
+
+- Add new color scheme named Mayukai Sunset. Color scheme with more orange and yellow variant, and with more darker background.
+
 ## [1.5.2 - 02092020]
 
 - Fix editor background with more darker color in Mayukai Mirage theme.
