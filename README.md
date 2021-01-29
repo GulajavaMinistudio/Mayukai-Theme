@@ -30,30 +30,6 @@ This Mayukai Theme includes some color scheme for syntax coloring. There are :
 - Mayukai Alucard.
 - Mayukai Sunset.
 
-## Development
-
-This theme is using base color swatch from Ayu, with some adjustment for syntax coloring. Template for this theme is generated using Ayu Color Generator from [Ayu Theme](https://github.com/ayu-theme/vscode-ayu). Documentation used for creating this theme in [VS Code Theming API](https://code.visualstudio.com/api/references/theme-color).
-
-## Thank you for
-
-Thank you to everyone who create these amazing theme in VS Code that inspires Mayukai Theme, feel free to check and try this out.
-
-- [Ayu Theme](https://github.com/ayu-theme/vscode-ayu) and for [Ayu color](https://github.com/ayu-theme/ayu-colors) swatch.
-- [Material Theme](https://github.com/material-theme/vsc-material-theme)
-- [Andromeda Theme](https://github.com/EliverLara/Andromeda)
-- [Monokai theme](https://github.com/microsoft/vscode/tree/master/extensions/theme-monokai) that built in on VS Code.
-- [Gruvbox Color Scheme](https://github.com/morhetz/gruvbox) by Pavel Pertsev.
-- [Darktooth Color Scheme](https://github.com/emacsfodder/emacs-theme-darktooth) .
-- [Dracula Color Scheme](https://github.com/dracula/dracula-theme) .
-
----
-
-### Issue and Bug Report
-
-We know creating syntax theme that run on every syntax in every programming language is hard, and we know that Mayukai theme is far from perfect. This theme will be updated regulary for coloring adjustment. And if you find any issue or bug in this theme, feel free to make an Issue in this repository.
-
-**Enjoy!**
-
 ---
 
 ## Preview and Screenshot
@@ -98,7 +74,7 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 
 ## Known Issues
 
-VS Code 1.45 and newer versions, bring new feature called Semantic Highlighting. Unfortunately, this feature make VS Code theme and syntax highlighting broken and unusable. You can disable this feature in VS Code Settings.
+VS Code 1.50 and newer versions, bring new feature called Semantic Highlighting. Unfortunately, this feature make VS Code theme and syntax highlighting broken and unusable. You can disable this feature in VS Code Settings.
 
 Put this line in your VS Code **_settings.json_** file.
 
@@ -137,3 +113,31 @@ Mayukai theme also available in [Hyper Terminal](https://hyper.is/) . You can do
 Mayukai Theme work fine with other syntax highlighting extension, such as [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel) by Michael McDermott. But I recommended you to disable that extension if you find any problem with syntax coloring consistency in Mayukai Theme.
 
 Mayukai Terminal Theme also available for Linux System, with .Xresources configuration. This configuration and how to install available in this repository [Mayukai Terminal Theme](https://github.com/irrellia/mayukai-terminal-themes).
+
+---
+
+## Development
+
+This theme is using base color swatch from Ayu, with some adjustment for syntax coloring. Template for this theme is generated using Ayu Color Generator from [Ayu Theme](https://github.com/ayu-theme/vscode-ayu). Documentation used for creating this theme in [VS Code Theming API](https://code.visualstudio.com/api/references/theme-color).
+
+---
+
+## Thank you for
+
+Thank you to everyone who create these amazing theme in VS Code that inspires Mayukai Theme, feel free to check and try this out.
+
+- [Ayu Theme](https://github.com/ayu-theme/vscode-ayu) and for [Ayu color](https://github.com/ayu-theme/ayu-colors) swatch.
+- [Material Theme](https://github.com/material-theme/vsc-material-theme)
+- [Andromeda Theme](https://github.com/EliverLara/Andromeda)
+- [Monokai theme](https://github.com/microsoft/vscode/tree/master/extensions/theme-monokai) that built in on VS Code.
+- [Gruvbox Color Scheme](https://github.com/morhetz/gruvbox) by Pavel Pertsev.
+- [Darktooth Color Scheme](https://github.com/emacsfodder/emacs-theme-darktooth) .
+- [Dracula Color Scheme](https://github.com/dracula/dracula-theme) .
+
+---
+
+### Issue and Bug Report
+
+We know creating syntax theme that run on every syntax in every programming language is hard, and we know that Mayukai theme is far from perfect. This theme will be updated regulary for coloring adjustment. And if you find any issue or bug in this theme, feel free to make an Issue in this repository.
+
+**Enjoy!**

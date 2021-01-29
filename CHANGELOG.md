@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [1.6.1 - 30012021]
+
+- Maintenance update with recompiling to target latest VS Code API and latest VS Code version.
+- Updating Readme file.
+
 ## [1.6.0 - 27112020]
 
 - Add new color scheme named Mayukai Sunset. Color scheme with more orange and yellow variant, and with more darker background.
