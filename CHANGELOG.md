@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [2.0.0 - 01032021]
+
+- New dark editor color for Mirage, Alucard, Mono, and Sunset scheme.
+- Mirage variant now become simplified with same dark color.
+- Maintenance update and updating Readme file.
+
 ## [1.6.1 - 30012021]
 
 - Maintenance update with recompiling to target latest VS Code API and latest VS Code version.

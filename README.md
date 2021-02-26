@@ -21,10 +21,8 @@ Open Visual Studio Code Market Place in your Visual Studio Code or VS Codium tex
 This Mayukai Theme includes some color scheme for syntax coloring. There are :
 
 - Mayukai Mirage.
-- Mayukai Mirage Darker.
 - Mayukai Semantic Mirage (specially designed for VS Code Semantic Highlighting feature).
 - Mayukai Dark.
-- Mayukai Darker.
 - Mayukai Mirage Gruvbox Darktooth.
 - Mayukai Mono.
 - Mayukai Alucard.
