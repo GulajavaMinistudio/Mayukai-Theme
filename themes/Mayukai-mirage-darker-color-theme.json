@@ -513,7 +513,7 @@
 				"support.function.go"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -523,7 +523,7 @@
 				"support.macro"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -532,7 +532,7 @@
 				"support.function.console",
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -560,7 +560,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{

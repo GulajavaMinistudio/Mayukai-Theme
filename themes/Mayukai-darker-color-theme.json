@@ -191,7 +191,8 @@
 		"terminalCursor.foreground": "#ff4057"
 	},
 	"semanticHighlighting": false,
-	"tokenColors": [{
+	"tokenColors": [
+		{
 			"name": "Comment",
 			"scope": [
 				"comment"
@@ -208,7 +209,7 @@
 				"constant.other.symbol"
 			],
 			"settings": {
-				"foreground": "#bae67e"
+				"foreground": "#C2D94C"
 			}
 		},
 		{
@@ -512,7 +513,7 @@
 				"support.function.go"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -522,7 +523,7 @@
 				"support.macro"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -531,7 +532,7 @@
 				"support.function.console",
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#FFB454"
 			}
 		},
 		{
@@ -559,7 +560,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -607,7 +608,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#ffcc66",
+				"foreground": "#FFB454",
 				"fontStyle": "italic"
 			}
 		},
