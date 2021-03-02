@@ -210,12 +210,12 @@
 		},
 		"interface": "#ff8f40",
 		"enum": "#9dd2bb",
-		"function": "#ffd580",
+		"function": "#ffcc66",
 		"member": {
-			"foreground": "#ffd580",
+			"foreground": "#ffcc66",
 			"fontStyle": ""
 		},
-		"macro": "#ffd580",
+		"macro": "#ffcc66",
 		"variable": "#dadbc0",
 		"variable.declaration.readonly": {
 			"foreground": "#d4bfff",
@@ -599,7 +599,7 @@
 				"support.function.go"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -609,7 +609,7 @@
 				"support.macro"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -618,7 +618,7 @@
 				"support.function.console"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -656,7 +656,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#ffd580"
+				"foreground": "#ffcc66"
 			}
 		},
 		{

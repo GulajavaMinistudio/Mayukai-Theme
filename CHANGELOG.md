@@ -8,6 +8,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [2.0.1 - 02032021]
+
+- Syntax color rendering fix in Mayukai Dark dan Mirage.
+- New dark editor color for Mirage, Alucard, Mono, and Sunset scheme.
+- Mirage variant now become simplified with same dark color.
+- Maintenance update and updating Readme file.
+
 ## [2.0.0 - 01032021]
 
 - New dark editor color for Mirage, Alucard, Mono, and Sunset scheme.
