@@ -96,7 +96,7 @@ Reference :
 
 [https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview)
 
-Or search in your VS Code Settings with "semantic" keyword. And disable or remove checkbox from **_Editor > Semantic Highlighting: Enabled_** setting.
+Or search in your VS Code Settings with "semantic" keyword. And disable by selecting **false option** from **_Editor > Semantic Highlighting: Enabled_** dropdown setting.
 
 ![Semantic Setting](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/semantic/bugs_semantic1.png)
 
