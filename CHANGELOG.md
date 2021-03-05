@@ -8,6 +8,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [2.0.2 - 06032021]
+
+- Some configuration change for VS Code 1.54 and newer.
+- Syntax color rendering fix in Mayukai Dark dan Mirage.
+- New dark editor color for Mirage, Alucard, Mono, and Sunset scheme.
+- Mirage variant now become simplified with same dark color.
+- Maintenance update and updating Readme file.
+
 ## [2.0.1 - 02032021]
 
 - Syntax color rendering fix in Mayukai Dark dan Mirage.

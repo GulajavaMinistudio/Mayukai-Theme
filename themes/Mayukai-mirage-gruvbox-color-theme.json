@@ -38,6 +38,7 @@
 		"list.activeSelectionBackground": "#282828",
 		"list.activeSelectionForeground": "#fabd2f",
 		"list.focusBackground": "#3c3836",
+		"quickInput.list.focusBackground": "#3c3836",
 		"list.focusForeground": "#fabd2f",
 		"list.highlightForeground": "#fabd2f",
 		"list.hoverBackground": "#3d424d66",
@@ -195,7 +196,8 @@
 		"minimap.warningHighlight": "#fe8019"
 	},
 	"semanticHighlighting": false,
-	"tokenColors": [{
+	"tokenColors": [
+		{
 			"name": "Comment",
 			"scope": [
 				"comment"
