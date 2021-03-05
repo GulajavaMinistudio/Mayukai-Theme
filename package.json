@@ -6,7 +6,7 @@
     },
     "publisher": "GulajavaMinistudio",
     "description": "Dark theme based on mixing swatch of Ayu Theme, Andromeda Theme, Monokai, Material Colors, Original Gruvbox Darktooth Colors, and Dracula Colors.",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "icon": "color-guide-mayukai.png",
     "engines": {
         "vscode": "^1.53.0"
