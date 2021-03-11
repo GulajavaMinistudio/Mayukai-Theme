@@ -74,7 +74,7 @@
 		"tab.unfocusedInactiveForeground": "#707a8c",
 		"tab.hoverBackground": "#3d424d66",
 		"editor.background": "#141824",
-		"editor.foreground": "#dadbc0",
+		"editor.foreground": "#CBCEBC",
 		"editorLineNumber.foreground": "#707a8c66",
 		"editorLineNumber.activeForeground": "#707a8ccc",
 		"editorCursor.foreground": "#ff4057",
@@ -217,13 +217,13 @@
 			"fontStyle": ""
 		},
 		"macro": "#ffcc66",
-		"variable": "#dadbc0",
+		"variable": "#cbcebc",
 		"variable.declaration.readonly": {
 			"foreground": "#d4bfff",
 			"fontStyle": ""
 		},
 		"variable.declaration": {
-			"foreground": "#dadbc0",
+			"foreground": "#cbcebc",
 			"fontStyle": ""
 		},
 		"variable.defaultLibrary": {
@@ -232,8 +232,8 @@
 		},
 		"parameter": "#d4bfff",
 		"typeParameter": "#ff8f40",
-		"property": "#dadbc0",
-		"property.declaration": "#dadbc0",
+		"property": "#cbcebc",
+		"property.declaration": "#cbcebc",
 		"property.readonly": "#d4bfff",
 		"property.defaultLibrary": {
 			"foreground": "#ffa759",
@@ -324,7 +324,7 @@
 				"variable"
 			],
 			"settings": {
-				"foreground": "#dadbc0"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -333,7 +333,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#dadbc0"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -343,7 +343,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#dadbc0"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -352,7 +352,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#dadbc0"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -520,7 +520,7 @@
 				"punctuation.section"
 			],
 			"settings": {
-				"foreground": "#dadbc0"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -696,7 +696,7 @@
 				"text.html.derivative"
 			],
 			"settings": {
-				"foreground": "#dadbc0"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -747,7 +747,7 @@
 				"storage.type.annotation"
 			],
 			"settings": {
-				"foreground": "#dadbc0"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -841,7 +841,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#dadbc0"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
