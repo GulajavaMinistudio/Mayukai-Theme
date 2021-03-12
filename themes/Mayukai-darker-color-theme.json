@@ -1037,7 +1037,8 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#ffb454"
+				"foreground": "#ffb454",
+				"fontStyle": "italic"
 			}
 		},
 		{

@@ -1060,7 +1060,8 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#83a598"
+				"foreground": "#ebdbb2",
+				"fontStyle": "italic"
 			}
 		},
 		{
