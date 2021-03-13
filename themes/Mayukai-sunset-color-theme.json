@@ -248,7 +248,7 @@
 				"constant.language"
 			],
 			"settings": {
-				"foreground": "#F29668"
+				"foreground": "#f28779"
 			}
 		},
 		{
@@ -346,6 +346,24 @@
 			}
 		},
 		{
+			"name": "Keyword Operator",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#f29668"
+			}
+		},
+		{
+			"name": "Keyword Operator New",
+			"scope": [
+				"keyword.operator.new"
+			],
+			"settings": {
+				"foreground": "#ffa759"
+			}
+		},
+		{
 			"name": "Keyword Control Flow",
 			"scope": [
 				"keyword.control.flow"
@@ -417,7 +435,7 @@
 				"storage.type.function.arrow"
 			],
 			"settings": {
-				"foreground": "#ffa759",
+				"foreground": "#f29668",
 				"fontStyle": ""
 			}
 		},
