@@ -8,8 +8,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
-## [2.0.4 - 12032021]
+## [2.0.5 - 12032021]
 
+- Fix operator coloring in Mayukai Sunset.
 - Some configuration change for VS Code 1.54 and newer.
 - White syntax color rendering fix in some color scheme.
 - New dark editor color for Mirage, Alucard, Mono, and Sunset scheme.
