@@ -191,7 +191,7 @@
 		"terminal.ansiBrightWhite": "#ffffff",
 		"terminalCursor.foreground": "#ff4057"
 	},
-	"semanticHighlighting": true,
+	"semanticHighlighting": false,
 	"semanticTokenColors": {
 		"namespace": "#ffb454",
 		"type": "#ff8f40",

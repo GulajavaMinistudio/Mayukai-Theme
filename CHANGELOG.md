@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [2.0.6 - 18042021]
+
+- Fix operator coloring in Mayukai Semantic Mirage.
+- Maintenance update and updating Readme file.
+
 ## [2.0.5 - 12032021]
 
 - Fix operator coloring in Mayukai Sunset.
