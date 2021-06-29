@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [2.1.0 - 30062021]
+
+- Add built-in file icon theme adopted from Ayu Icon Theme.
+- Fix operator coloring in Mayukai Mono.
+- Maintenance update and updating Readme file.
+
 ## [2.0.6 - 18042021]
 
 - Fix operator coloring in Mayukai Semantic Mirage.
