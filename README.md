@@ -125,6 +125,7 @@ This theme is using base color swatch from Ayu, with some adjustment for syntax 
 Thank you to everyone who create these amazing theme in VS Code that inspires Mayukai Theme, feel free to check and try this out.
 
 - [Ayu Theme](https://github.com/ayu-theme/vscode-ayu) and for [Ayu color](https://github.com/ayu-theme/ayu-colors) swatch.
+- [Ayu Icon Theme](https://github.com/ayu-theme/vscode-ayu) for built in icon theme.
 - [Material Theme](https://github.com/material-theme/vsc-material-theme)
 - [Andromeda Theme](https://github.com/EliverLara/Andromeda)
 - [Monokai theme](https://github.com/microsoft/vscode/tree/master/extensions/theme-monokai) that built in on VS Code.
