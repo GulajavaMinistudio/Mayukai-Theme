@@ -74,7 +74,7 @@
 		"tab.unfocusedInactiveForeground": "#707a8c",
 		"tab.hoverBackground": "#3d424d66",
 		"editor.background": "#141824",
-		"editor.foreground": "#CBCCC6",
+		"editor.foreground": "#cbcebc",
 		"editorLineNumber.foreground": "#707a8c66",
 		"editorLineNumber.activeForeground": "#707a8ccc",
 		"editorCursor.foreground": "#ff4057",
@@ -416,7 +416,7 @@
 				"punctuation.section"
 			],
 			"settings": {
-				"foreground": "#CBCCC6"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -582,7 +582,7 @@
 				"text.html.derivative"
 			],
 			"settings": {
-				"foreground": "#CBCCC6"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -624,7 +624,7 @@
 				"storage.type.annotation"
 			],
 			"settings": {
-				"foreground": "#CBCCC6"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -718,7 +718,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#CBCCC6"
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -945,7 +945,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#CBCCC6",
+				"foreground": "#cbcebc",
 				"fontStyle": "italic"
 			}
 		},
