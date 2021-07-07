@@ -282,6 +282,15 @@
 			}
 		},
 		{
+			"name": "Constant Color",
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#F29668"
+			}
+		},
+		{
 			"name": "Number",
 			"scope": [
 				"constant.numeric",
@@ -509,6 +518,15 @@
 			"scope": [
 				"punctuation.separator",
 				"punctuation.terminator"
+			],
+			"settings": {
+				"foreground": "#cbccc6b3"
+			}
+		},
+		{
+			"name": "Punctuation Default",
+			"scope": [
+				"punctuation.definition"
 			],
 			"settings": {
 				"foreground": "#cbccc6b3"
