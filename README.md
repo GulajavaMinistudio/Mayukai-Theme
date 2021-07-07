@@ -73,7 +73,7 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 
 ### Mayukai Reversal
 
-![Screenshot9](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo10.png)
+![Screenshot10](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo10.png)
 
 ## Known Issues
 
