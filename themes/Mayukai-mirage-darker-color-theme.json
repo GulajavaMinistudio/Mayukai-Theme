@@ -225,6 +225,15 @@
 			}
 		},
 		{
+			"name": "Constant Color",
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#F29668"
+			}
+		},
+		{
 			"name": "Number",
 			"scope": [
 				"constant.numeric"
@@ -426,6 +435,15 @@
 			],
 			"settings": {
 				"foreground": "#cbccc6b3"
+			}
+		},
+		{
+			"name": "Punctuation Default",
+			"scope": [
+				"punctuation.definition"
+			],
+			"settings": {
+				"foreground": "#CBCCC6B3"
 			}
 		},
 		{

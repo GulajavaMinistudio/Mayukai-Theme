@@ -8,6 +8,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.0.0 - 07072021]
+
+- Add new color scheme named Mayukai Reversal. This color scheme use reverse coloring from Mayukai Mirage, and add some new syntax coloring scopes.
+- Fix some coloring scopes on Mayukai Mirage, Mayukai Mono, Mayukai Sunset, and Mayukai Alucard.
+- Fix operator coloring in Mayukai Mono.
+- Maintenance update and updating Readme file.
+
 ## [2.1.0 - 30062021]
 
 - Add built-in file icon theme adopted from Ayu Icon Theme.

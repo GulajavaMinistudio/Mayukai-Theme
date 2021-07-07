@@ -225,6 +225,15 @@
 			}
 		},
 		{
+			"name": "Constant Color",
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#F29668"
+			}
+		},
+		{
 			"name": "Number",
 			"scope": [
 				"constant.numeric"
