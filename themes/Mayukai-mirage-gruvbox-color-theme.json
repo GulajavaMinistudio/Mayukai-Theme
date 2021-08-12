@@ -4,8 +4,8 @@
 	"colors": {
 		"focusBorder": "#bdae93",
 		"foreground": "#ebdbb2",
-		"widget.shadow": "#3c3836",
-		"selection.background": "#4e545f",
+		"widget.shadow": "#504945",
+		"selection.background": "#867c5e",
 		"textBlockQuote.background": "#232834",
 		"textLink.foreground": "#fabd2f",
 		"textLink.activeForeground": "#fabd2f",
