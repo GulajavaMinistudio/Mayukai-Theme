@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.0.1 - 12082021]
+
+- Fix selection background in all color scheme.
+- Add new color scheme named Mayukai Reversal. This color scheme use reverse coloring from Mayukai Mirage, and add some new syntax coloring scopes.
+- Maintenance update and updating Readme file.
+
 ## [3.0.0 - 07072021]
 
 - Add new color scheme named Mayukai Reversal. This color scheme use reverse coloring from Mayukai Mirage, and add some new syntax coloring scopes.

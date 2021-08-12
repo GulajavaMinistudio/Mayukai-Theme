@@ -5,7 +5,7 @@
 		"focusBorder": "#505867",
 		"foreground": "#707a8c",
 		"widget.shadow": "#141925",
-		"selection.background": "#2a3546fd",
+		"selection.background": "#4e545f",
 		"textBlockQuote.background": "#232834",
 		"textLink.foreground": "#ffcc66",
 		"textLink.activeForeground": "#ffcc66",
