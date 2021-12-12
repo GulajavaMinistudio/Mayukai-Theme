@@ -326,6 +326,16 @@
 			}
 		},
 		{
+			"name": "Storage MOFIFIER",
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#ffa759",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Storage Async Await",
 			"scope": [
 				"storage.modifier.async"

@@ -10,11 +10,11 @@
 
 </div>
 
-Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy readibility syntax. This theme is inspired from mixed color swatch in Ayu Theme, Material Theme, Monokai, Andromeda, and Gruvbox Darktooth Original Colors. These color are adjusted in Mayukai theme so it suitable for all day long programming work.
+Mayukai Theme is dark and yellow bluish mirage theme with bright colors for easy readibility syntax. This theme is inspired from mixed color swatch in Ayu Theme, Material Theme, Monokai, Andromeda, and Gruvbox Darktooth Original Colors. These color are adjusted in Mayukai theme so it suitable for all day long programming work. This theme also included with built-in File Icon Theme called Mayukai Ayu.
 
 ## Install in VS Code/VS Codium
 
-Open Visual Studio Code Market Place in your Visual Studio Code or VS Codium text editor, and search Mayukai. Hit install button, and after finishing install, go to `Preferences > Color Theme > Mayukai Dark or Mayukai Mirage`.
+Open Visual Studio Code Market Place in your Visual Studio Code or VS Codium text editor, and search Mayukai. Hit install button, and after finishing install, go to `Preferences > Color Theme > Mayukai Dark or Mayukai Mirage`. If you want to use built-in File Icon Theme, go to `Preferences > File Icon Theme > Mayukai Ayu`.
 
 ## List of Color Scheme
 

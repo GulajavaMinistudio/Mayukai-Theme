@@ -421,6 +421,16 @@
 			}
 		},
 		{
+			"name": "Storage MOFIFIER",
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#ffa759",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Storage LET CONST",
 			"scope": [
 				"storage.type"

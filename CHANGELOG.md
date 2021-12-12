@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.1.0 - 13122021]
+
+- Fix variable and type coloring in Mayukai Reversal, Mayukai Semantic Mirage, and Mayukai Sunset.
+- Maintenance update and updating Readme file.
+
 ## [3.0.1 - 12082021]
 
 - Fix selection background in all color scheme.
