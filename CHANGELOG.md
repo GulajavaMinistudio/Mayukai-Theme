@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.1.1 - 29032022]
+
+- Fix error indicator on file inside sidebar.
+- Adjust "untracked Git file" color on sidebar.
+- Maintenance update and updating Readme file.
+
 ## [3.1.0 - 13122021]
 
 - Fix variable and type coloring in Mayukai Reversal, Mayukai Semantic Mirage, and Mayukai Sunset.
