@@ -61,6 +61,11 @@
                 "label": "Mayukai Reversal",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Mayukai-reversal-color-theme.json"
+            },
+            {
+                "label": "Mayukai Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mayukai-midnight.json"
             }
         ],
         "iconThemes": [
