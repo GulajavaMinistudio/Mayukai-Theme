@@ -28,6 +28,7 @@ This Mayukai Theme includes some color scheme for syntax coloring. There are :
 - Mayukai Alucard.
 - Mayukai Sunset.
 - Mayukai Reversal.
+- Mayukai Midnight.
 
 ---
 
@@ -74,6 +75,11 @@ Some demo for syntax highlighting in JavaScript, CSS, HTML, and JSON file. The r
 ### Mayukai Reversal
 
 ![Screenshot10](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo10.png)
+
+### Mayukai Midnight
+
+![Screenshot10](https://raw.githubusercontent.com/GulajavaMinistudio/Mayukai-Theme/master/scrdemo11.png)
+
 
 ## Known Issues
 

@@ -8,6 +8,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.2.0 - 01042022]
+
+- New color scheme called Mayukai Midnight. This color scheme is based on Ayu Mirage and customized with some syntax coloring for comfortable midnight usage.
+- Fix error indicator on file inside sidebar.
+- Adjust "untracked Git file" color on sidebar.
+- Maintenance update and updating Readme file.
+
 ## [3.1.1 - 29032022]
 
 - Fix error indicator on file inside sidebar.
