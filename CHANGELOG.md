@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.2.1 - 03052022]
+
+- Adjust line highlight color for every color scheme.
+- Add variable color syntax for Go language on Mayukai Semantic Mirage.
+- Maintenance update and updating Readme file.
+
 ## [3.2.0 - 01042022]
 
 - New color scheme called Mayukai Midnight. This color scheme is based on Ayu Mirage and customized with some syntax coloring for comfortable midnight usage.
