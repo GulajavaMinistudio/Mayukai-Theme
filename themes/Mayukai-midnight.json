@@ -520,6 +520,15 @@
 			}
 		},
 		{
+			"name": "Entity name Class",
+			"scope": [
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#9CD1BB"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",

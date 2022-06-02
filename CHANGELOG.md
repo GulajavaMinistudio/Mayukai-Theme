@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.2.2 - 03062022]
+
+- Fix TypeScript class name coloring on Mayukai Midnight.
+- Maintenance update and updating Readme file.
+
 ## [3.2.1 - 03052022]
 
 - Adjust line highlight color for every color scheme.
