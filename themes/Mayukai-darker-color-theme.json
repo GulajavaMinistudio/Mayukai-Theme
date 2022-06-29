@@ -646,6 +646,24 @@
 			}
 		},
 		{
+			"name": "JSX Component",
+			"scope": [
+				"support.class.component"
+			],
+			"settings": {
+				"foreground": "#9CD1BB"
+			}
+		},
+		{
+			"name": "Class color for Dart",
+			"scope": [
+				"support.class.dart"
+			],
+			"settings": {
+				"foreground": "#9cd1bb"
+			}
+		},
+		{
 			"name": "Library class/type PROMISE",
 			"scope": [
 				"support.class.promise",

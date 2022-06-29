@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.2.3 - 30062022]
+
+- Adjust coloring for Dart language and Flutter widget coloring.
+- Fix component class coloring in React JS.
+- Maintenance update and updating Readme file.
+
 ## [3.2.2 - 03062022]
 
 - Fix TypeScript class name coloring on Mayukai Midnight.
