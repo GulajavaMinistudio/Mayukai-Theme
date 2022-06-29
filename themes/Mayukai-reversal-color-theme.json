@@ -629,6 +629,15 @@
 			}
 		},
 		{
+			"name": "Class color for Dart",
+			"scope": [
+				"support.class.dart"
+			],
+			"settings": {
+				"foreground": "#9cd1bb"
+			}
+		},
+		{
 			"name": "Decorators/annotation",
 			"scope": [
 				"meta.decorator variable.other",
