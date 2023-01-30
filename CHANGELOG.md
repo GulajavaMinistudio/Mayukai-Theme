@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.2.4 - 01022023]
+
+- Maintenance update and updating Readme file.
+
 ## [3.2.3 - 30062022]
 
 - Adjust coloring for Dart language and Flutter widget coloring.
