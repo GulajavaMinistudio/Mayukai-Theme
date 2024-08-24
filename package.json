@@ -9,7 +9,7 @@
     "version": "3.2.4",
     "icon": "color-guide-mayukai.png",
     "engines": {
-        "vscode": "^1.73.0"
+        "vscode": "^1.92.0"
     },
     "license": "MIT",
     "categories": [

@@ -8,7 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
-## [3.2.4 - 01022023]
+## [3.2.4 - 25082024]
 
 - Maintenance update and updating Readme file.
 
