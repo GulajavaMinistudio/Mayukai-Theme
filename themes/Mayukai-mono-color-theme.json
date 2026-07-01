@@ -191,7 +191,28 @@
 		"terminal.ansiBrightMagenta": "#d4bfff",
 		"terminal.ansiBrightCyan": "#95e6cb",
 		"terminal.ansiBrightWhite": "#ffffff",
-		"terminalCursor.foreground": "#ff4057"
+		"terminalCursor.foreground": "#ff4057",
+		"editorBracketHighlight.foreground1": "#ff6188",
+		"editorBracketHighlight.foreground2": "#fc9867",
+		"editorBracketHighlight.foreground3": "#ffd866",
+		"editorBracketHighlight.foreground4": "#a9dc76",
+		"editorBracketHighlight.foreground5": "#78dce8",
+		"editorBracketHighlight.foreground6": "#c39ac9",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff3333",
+		"editorBracketPairGuide.background1": "#ff618826",
+		"editorBracketPairGuide.activeBackground1": "#ff618899",
+		"editorBracketPairGuide.background2": "#fc986726",
+		"editorBracketPairGuide.activeBackground2": "#fc986799",
+		"editorBracketPairGuide.background3": "#ffd86626",
+		"editorBracketPairGuide.activeBackground3": "#ffd86699",
+		"editorBracketPairGuide.background4": "#a9dc7626",
+		"editorBracketPairGuide.activeBackground4": "#a9dc7699",
+		"editorBracketPairGuide.background5": "#78dce826",
+		"editorBracketPairGuide.activeBackground5": "#78dce899",
+		"editorBracketPairGuide.background6": "#c39ac926",
+		"editorBracketPairGuide.activeBackground6": "#c39ac999",
+		"editorInlayHint.background": "#232834",
+		"editorInlayHint.foreground": "#CBCEBC99"
 	},
 	"semanticHighlighting": false,
 	"tokenColors": [
@@ -485,7 +506,7 @@
 			],
 			"settings": {
 				"foreground": "#FF6188",
-				"fontStyle": "",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -533,7 +554,7 @@
 		{
 			"name": "Library function console",
 			"scope": [
-				"support.function.console",
+				"support.function.console"
 			],
 			"settings": {
 				"foreground": "#FFD866"
@@ -603,7 +624,7 @@
 				"text.html.derivative"
 			],
 			"settings": {
-				"foreground": "#cbcebc",
+				"foreground": "#cbcebc"
 			}
 		},
 		{
@@ -640,7 +661,7 @@
 		{
 			"name": "Library class/type PROMISE",
 			"scope": [
-				"support.class.promise",
+				"support.class.promise"
 			],
 			"settings": {
 				"foreground": "#9CD1BB"
@@ -754,7 +775,7 @@
 		{
 			"name": "Search Results Nums",
 			"scope": [
-				"constant.numeric.line-number.find-in-files - match"
+				"constant.numeric.line-number.match"
 			],
 			"settings": {
 				"foreground": "#5c6773"
@@ -962,25 +983,25 @@
 				"string.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f29e74",
+				"foreground": "#f29e74"
 			}
 		},
 		{
 			"name": "JSON - TAG Name Lv 1",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#e6b450",
+				"foreground": "#e6b450"
 			}
 		},
 		{
 			"name": "JSON - TAG Name Lv 2",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f2ae49",
+				"foreground": "#f2ae49"
 			}
 		},
 		{
@@ -989,7 +1010,7 @@
 				"constant.language.json"
 			],
 			"settings": {
-				"foreground": "#d4bfff",
+				"foreground": "#d4bfff"
 			}
 		},
 		{
@@ -998,7 +1019,7 @@
 				"constant.numeric.json"
 			],
 			"settings": {
-				"foreground": "#f27983",
+				"foreground": "#f27983"
 			}
 		},
 		{
@@ -1008,7 +1029,7 @@
 				"constant.other.object.key"
 			],
 			"settings": {
-				"foreground": "#e6b450",
+				"foreground": "#e6b450"
 			}
 		},
 		{
@@ -1019,7 +1040,7 @@
 				"meta.brace.square"
 			],
 			"settings": {
-				"foreground": "#b3b1ad",
+				"foreground": "#b3b1ad"
 			}
 		},
 		{
@@ -1031,7 +1052,7 @@
 				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
-				"foreground": "#FC9867",
+				"foreground": "#FC9867"
 			}
 		},
 		{
@@ -1081,5 +1102,5 @@
 				"fontStyle": "italic"
 			}
 		}
-	],
+	]
 }

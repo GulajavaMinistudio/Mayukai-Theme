@@ -8,6 +8,27 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Unreleased feature and bug fix will show in here.
 
+## [3.3.0 - 01072026]
+
+### Critical Bug Fixes
+- Fix invalid JSON syntax di Mayukai Reversal (JS comment) — file kini dapat di-load VS Code.
+- Fix malformed TextMate scope `constant.numeric.line-number.find-in-files - match` di 9 tema.
+- Hapus redundant JSON scopes (Lv 1 & Lv 2) diganti dengan `support.type.property-name.json`.
+- Hapus key deprecated `quickInput.list.focusBackground` di Mayukai Semantic Mirage.
+
+### Scope Consistency
+- Tambah 6 missing scope di Mayukai Midnight: `entity.name.type`, `constant.language.boolean`, `storage.type.class`, `support.class.promise`, `variable.language.this`, `keyword.operator.new`.
+- Tambah 3 missing scope di Mayukai Sunset: `entity.name.type`, `constant.language.boolean`, `storage.type.class`.
+
+### Modern Feature Support
+- Tambah dukungan Bracket Pair Colorization (`editorBracketHighlight.foreground1-6`) di 9 tema.
+- Tambah dukungan Bracket Pair Guides (`editorBracketPairGuide.background1-6` & `activeBackground1-6`) di 9 tema.
+- Tambah dukungan Inlay Hints (`editorInlayHint.background` & `foreground`) di 9 tema.
+
+### Maintenance
+- Fix trailing commas pre-existing di 5 file tema untuk JSON compliance.
+- Perbarui palet warna bracket pair dari tokenColors/colors existing (CON-004).
+
 ## [3.2.4 - 25082024]
 
 - Maintenance update and updating Readme file.

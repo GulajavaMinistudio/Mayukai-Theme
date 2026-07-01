@@ -38,7 +38,6 @@
 		"list.activeSelectionBackground": "#191e2a",
 		"list.activeSelectionForeground": "#ffb454",
 		"list.focusBackground": "#191e2a",
-		"quickInput.list.focusBackground": "#191e2a",
 		"list.focusForeground": "#ffcc66",
 		"list.highlightForeground": "#ffcc66",
 		"list.hoverBackground": "#3d424d66",
@@ -192,7 +191,28 @@
 		"terminal.ansiBrightMagenta": "#d4bfff",
 		"terminal.ansiBrightCyan": "#95e6cb",
 		"terminal.ansiBrightWhite": "#ffffff",
-		"terminalCursor.foreground": "#ff4057"
+		"terminalCursor.foreground": "#ff4057",
+		"editorBracketHighlight.foreground1": "#ff6188",
+		"editorBracketHighlight.foreground2": "#ff8f40",
+		"editorBracketHighlight.foreground3": "#ffcc66",
+		"editorBracketHighlight.foreground4": "#bae67e",
+		"editorBracketHighlight.foreground5": "#5ccfe6",
+		"editorBracketHighlight.foreground6": "#d4bfff",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff3333",
+		"editorBracketPairGuide.background1": "#ff618826",
+		"editorBracketPairGuide.activeBackground1": "#ff618899",
+		"editorBracketPairGuide.background2": "#ff8f4026",
+		"editorBracketPairGuide.activeBackground2": "#ff8f4099",
+		"editorBracketPairGuide.background3": "#ffcc6626",
+		"editorBracketPairGuide.activeBackground3": "#ffcc6699",
+		"editorBracketPairGuide.background4": "#bae67e26",
+		"editorBracketPairGuide.activeBackground4": "#bae67e99",
+		"editorBracketPairGuide.background5": "#5ccfe626",
+		"editorBracketPairGuide.activeBackground5": "#5ccfe699",
+		"editorBracketPairGuide.background6": "#d4bfff26",
+		"editorBracketPairGuide.activeBackground6": "#d4bfff99",
+		"editorInlayHint.background": "#232834",
+		"editorInlayHint.foreground": "#CBCEBC99"
 	},
 	"semanticHighlighting": false,
 	"semanticTokenColors": {
@@ -905,7 +925,7 @@
 		{
 			"name": "Search Results Nums",
 			"scope": [
-				"constant.numeric.line-number.find-in-files - match"
+				"constant.numeric.line-number.match"
 			],
 			"settings": {
 				"foreground": "#5c6773"
@@ -1119,7 +1139,7 @@
 		{
 			"name": "JSON - TAG Name Lv 1",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#e6b450"
@@ -1128,7 +1148,7 @@
 		{
 			"name": "JSON - TAG Name Lv 2",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#f2ae49"

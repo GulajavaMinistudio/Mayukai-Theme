@@ -191,7 +191,28 @@
 		"terminal.ansiBrightMagenta": "#ffee99",
 		"terminal.ansiBrightCyan": "#95e6cb",
 		"terminal.ansiBrightWhite": "#ffffff",
-		"terminalCursor.foreground": "#ff4057"
+		"terminalCursor.foreground": "#ff4057",
+		"editorBracketHighlight.foreground1": "#ff6188",
+		"editorBracketHighlight.foreground2": "#ff8f40",
+		"editorBracketHighlight.foreground3": "#ffcc66",
+		"editorBracketHighlight.foreground4": "#c2d94c",
+		"editorBracketHighlight.foreground5": "#5ccfe6",
+		"editorBracketHighlight.foreground6": "#d4bfff",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff3333",
+		"editorBracketPairGuide.background1": "#ff618826",
+		"editorBracketPairGuide.activeBackground1": "#ff618899",
+		"editorBracketPairGuide.background2": "#ff8f4026",
+		"editorBracketPairGuide.activeBackground2": "#ff8f4099",
+		"editorBracketPairGuide.background3": "#ffcc6626",
+		"editorBracketPairGuide.activeBackground3": "#ffcc6699",
+		"editorBracketPairGuide.background4": "#c2d94c26",
+		"editorBracketPairGuide.activeBackground4": "#c2d94c99",
+		"editorBracketPairGuide.background5": "#5ccfe626",
+		"editorBracketPairGuide.activeBackground5": "#5ccfe699",
+		"editorBracketPairGuide.background6": "#d4bfff26",
+		"editorBracketPairGuide.activeBackground6": "#d4bfff99",
+		"editorInlayHint.background": "#0d1016",
+		"editorInlayHint.foreground": "#dadbc099"
 	},
 	"semanticHighlighting": false,
 	"tokenColors": [
@@ -493,7 +514,7 @@
 			],
 			"settings": {
 				"foreground": "#f07178",
-				"fontStyle": "",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -541,7 +562,7 @@
 		{
 			"name": "Library function Console",
 			"scope": [
-				"support.function.console",
+				"support.function.console"
 			],
 			"settings": {
 				"foreground": "#FFB454"
@@ -611,7 +632,7 @@
 				"text.html.derivative"
 			],
 			"settings": {
-				"foreground": "#dadbc0",
+				"foreground": "#dadbc0"
 			}
 		},
 		{
@@ -666,7 +687,7 @@
 		{
 			"name": "Library class/type PROMISE",
 			"scope": [
-				"support.class.promise",
+				"support.class.promise"
 			],
 			"settings": {
 				"foreground": "#ffa759"
@@ -780,7 +801,7 @@
 		{
 			"name": "Search Results Nums",
 			"scope": [
-				"constant.numeric.line-number.find-in-files - match"
+				"constant.numeric.line-number.match"
 			],
 			"settings": {
 				"foreground": "#5c6773"
@@ -988,25 +1009,25 @@
 				"string.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f29e74",
+				"foreground": "#f29e74"
 			}
 		},
 		{
 			"name": "JSON - TAG Name Lv 1",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#e6b450",
+				"foreground": "#e6b450"
 			}
 		},
 		{
 			"name": "JSON - TAG Name Lv 2",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f2ae49",
+				"foreground": "#f2ae49"
 			}
 		},
 		{
@@ -1015,7 +1036,7 @@
 				"constant.language.json"
 			],
 			"settings": {
-				"foreground": "#d4bfff",
+				"foreground": "#d4bfff"
 			}
 		},
 		{
@@ -1024,7 +1045,7 @@
 				"constant.numeric.json"
 			],
 			"settings": {
-				"foreground": "#f27983",
+				"foreground": "#f27983"
 			}
 		},
 		{
@@ -1034,7 +1055,7 @@
 				"constant.other.object.key"
 			],
 			"settings": {
-				"foreground": "#e6b450",
+				"foreground": "#e6b450"
 			}
 		},
 		{
@@ -1045,7 +1066,7 @@
 				"meta.brace.square"
 			],
 			"settings": {
-				"foreground": "#b3b1ad",
+				"foreground": "#b3b1ad"
 			}
 		},
 		{
@@ -1057,7 +1078,7 @@
 				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
-				"foreground": "#ffa759",
+				"foreground": "#ffa759"
 			}
 		},
 		{
@@ -1107,5 +1128,5 @@
 				"fontStyle": "italic"
 			}
 		}
-	],
+	]
 }

@@ -195,7 +195,28 @@
 		"terminalCursor.foreground": "#ff4057",
 		"minimap.selectionHighlight": "#fabd2f",
 		"minimap.errorHighlight": "#fb4934",
-		"minimap.warningHighlight": "#fe8019"
+		"minimap.warningHighlight": "#fe8019",
+		"editorBracketHighlight.foreground1": "#fb4934",
+		"editorBracketHighlight.foreground2": "#fe8019",
+		"editorBracketHighlight.foreground3": "#fabd2f",
+		"editorBracketHighlight.foreground4": "#b8bb26",
+		"editorBracketHighlight.foreground5": "#83a598",
+		"editorBracketHighlight.foreground6": "#d3869b",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#fb4934",
+		"editorBracketPairGuide.background1": "#fb493426",
+		"editorBracketPairGuide.activeBackground1": "#fb493499",
+		"editorBracketPairGuide.background2": "#fe801926",
+		"editorBracketPairGuide.activeBackground2": "#fe801999",
+		"editorBracketPairGuide.background3": "#fabd2f26",
+		"editorBracketPairGuide.activeBackground3": "#fabd2f99",
+		"editorBracketPairGuide.background4": "#b8bb2626",
+		"editorBracketPairGuide.activeBackground4": "#b8bb2699",
+		"editorBracketPairGuide.background5": "#83a59826",
+		"editorBracketPairGuide.activeBackground5": "#83a59899",
+		"editorBracketPairGuide.background6": "#d3869b26",
+		"editorBracketPairGuide.activeBackground6": "#d3869b99",
+		"editorInlayHint.background": "#1d2021",
+		"editorInlayHint.foreground": "#ebdbb299"
 	},
 	"semanticHighlighting": false,
 	"tokenColors": [
@@ -507,7 +528,7 @@
 			],
 			"settings": {
 				"foreground": "#8ec07c",
-				"fontStyle": "",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -555,7 +576,7 @@
 		{
 			"name": "Library function",
 			"scope": [
-				"support.function.console",
+				"support.function.console"
 			],
 			"settings": {
 				"foreground": "#fabd2f"
@@ -625,7 +646,7 @@
 				"text.html.derivative"
 			],
 			"settings": {
-				"foreground": "#ebdbb2",
+				"foreground": "#ebdbb2"
 			}
 		},
 		{
@@ -662,7 +683,7 @@
 		{
 			"name": "Library class/type PROMISE",
 			"scope": [
-				"support.class.promise",
+				"support.class.promise"
 			],
 			"settings": {
 				"foreground": "#fabd2f"
@@ -785,7 +806,7 @@
 		{
 			"name": "Search Results Nums",
 			"scope": [
-				"constant.numeric.line-number.find-in-files - match"
+				"constant.numeric.line-number.match"
 			],
 			"settings": {
 				"foreground": "#83a598"
@@ -993,25 +1014,25 @@
 				"string.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#fe8019",
+				"foreground": "#fe8019"
 			}
 		},
 		{
 			"name": "JSON - TAG Name Lv 1",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#fabd2f",
+				"foreground": "#fabd2f"
 			}
 		},
 		{
 			"name": "JSON - TAG Name Lv 2",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#d79921",
+				"foreground": "#d79921"
 			}
 		},
 		{
@@ -1020,7 +1041,7 @@
 				"constant.language.json"
 			],
 			"settings": {
-				"foreground": "#d3869b",
+				"foreground": "#d3869b"
 			}
 		},
 		{
@@ -1029,7 +1050,7 @@
 				"constant.numeric.json"
 			],
 			"settings": {
-				"foreground": "#d3869b",
+				"foreground": "#d3869b"
 			}
 		},
 		{
@@ -1039,7 +1060,7 @@
 				"constant.other.object.key"
 			],
 			"settings": {
-				"foreground": "#83a598",
+				"foreground": "#83a598"
 			}
 		},
 		{
@@ -1050,7 +1071,7 @@
 				"meta.brace.square"
 			],
 			"settings": {
-				"foreground": "#d5c4a1",
+				"foreground": "#d5c4a1"
 			}
 		},
 		{
@@ -1062,7 +1083,7 @@
 				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
-				"foreground": "#fe8019",
+				"foreground": "#fe8019"
 			}
 		},
 		{
@@ -1112,5 +1133,5 @@
 				"fontStyle": "italic"
 			}
 		}
-	],
+	]
 }

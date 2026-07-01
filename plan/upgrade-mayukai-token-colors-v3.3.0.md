@@ -1,10 +1,9 @@
 ---
 goal: Perbaikan dan Upgrade Token Color Mayukai Theme ke Standar VS Code API 2026
 version: 3.3.0
-date_created: 2026-07-01
 last_updated: 2026-07-01
+status: Complete (v3.3.0)
 owner: GulajavaMinistudio
-status: Planned
 tags: upgrade, bug, chore, theme, vscode
 ---
 
@@ -48,12 +47,14 @@ Seluruh perbaikan menggunakan warna dari palet yang **sudah ada** di masing-masi
 
 | Task     | Description | Completed | Date |
 | -------- | ----------- | --------- | ---- |
-| TASK-001 | **Fix JSON comment di `Mayukai-reversal-color-theme.json`**: Hapus baris `// "foreground": "#A9DC76"` pada line 215. Ganti menjadi `"foreground": "#FFCC66"` (sama dengan nilai di bawahnya). Verifikasi: file bisa di-parse oleh `JSON.parse()`. | | |
-| TASK-002 | **⚠️ JALANKAN SETELAH TASK-001** — Fix malformed scope di 9 tema (termasuk Reversal yang sudah diperbaiki): Ganti scope `constant.numeric.line-number.find-in-files - match` (mengandung karakter ` - ` yang invalid) menjadi `constant.numeric.line-number.match`. 7 tema menggunakan `#5c6773`, Gruvbox menggunakan `#83a598`, Reversal menggunakan `#5c6773`. Verifikasi: tidak ada scope yang mengandung ` - ` di semua tema. | | |
-| TASK-003 | **⚠️ JALANKAN SETELAH TASK-001** — Fix redundant JSON scopes di 9 tema: Di setiap tema terdapat 2 scope JSON yang sangat panjang dan berulang. Ganti kedua scope tersebut dengan `support.type.property-name.json`. Target rule: temukan rule dengan `"name"` mengandung "JSON key" atau "JSON property". **Efek samping (positif)**: scope menjadi lebih generik — match di SEMUA konteks JSON. Verifikasi: tidak ada scope dengan panjang >80 karakter di semua tema. | | |
-| TASK-004 | **Fix key `quickInput.list.focusBackground`** di `Mayukai-mirage-color-theme-semantic.json`: file ini memiliki kedua key (`quickInput.list.focusBackground` dan `quickInputList.focusBackground`) dengan nilai sama `#191e2a`. Hapus key `quickInput.list.focusBackground`, pertahankan `quickInputList.focusBackground`. Verifikasi: tidak ada tema yang menggunakan key `quickInput.list.focusBackground`. | | |
-| TASK-005 | **VERIFY**: Validasi JSON semua 9 file tema — harus valid. Cek scope: tidak boleh ada ` - ` dan tidak boleh scope >100 karakter. Pastikan tidak ada key `quickInput.list.focusBackground`. | | |
-| TASK-006 | **APPROVAL**: Tunggu konfirmasi eksplisit user untuk melanjutkan ke Phase 2. | | |
+| TASK-001 | **Fix JSON comment di `Mayukai-reversal-color-theme.json`**: Hapus baris `// "foreground": "#A9DC76"` pada line 215. Ganti menjadi `"foreground": "#FFCC66"` (sama dengan nilai di bawahnya). Verifikasi: file bisa di-parse oleh `JSON.parse()`. | ✅ | 2026-07-01 |
+| TASK-002 | **⚠️ JALANKAN SETELAH TASK-001** — Fix malformed scope di 9 tema (termasuk Reversal yang sudah diperbaiki): Ganti scope `constant.numeric.line-number.find-in-files - match` (mengandung karakter ` - ` yang invalid) menjadi `constant.numeric.line-number.match`. 7 tema menggunakan `#5c6773`, Gruvbox menggunakan `#83a598`, Reversal menggunakan `#5c6773`. Verifikasi: tidak ada scope yang mengandung ` - ` di semua tema. | ✅ | 2026-07-01 |
+| TASK-003 | **⚠️ JALANKAN SETELAH TASK-001** — Fix redundant JSON scopes di 9 tema: Di setiap tema terdapat 2 scope JSON yang sangat panjang dan berulang. Ganti kedua scope tersebut dengan `support.type.property-name.json`. Target rule: temukan rule dengan `"name"` mengandung "JSON key" atau "JSON property". **Efek samping (positif)**: scope menjadi lebih generik — match di SEMUA konteks JSON. Verifikasi: tidak ada scope dengan panjang >80 karakter di semua tema. | ✅ | 2026-07-01 |
+| TASK-004 | **Fix key `quickInput.list.focusBackground`** di `Mayukai-mirage-color-theme-semantic.json`: file ini memiliki kedua key (`quickInput.list.focusBackground` dan `quickInputList.focusBackground`) dengan nilai sama `#191e2a`. Hapus key `quickInput.list.focusBackground`, pertahankan `quickInputList.focusBackground`. Verifikasi: tidak ada tema yang menggunakan key `quickInput.list.focusBackground`. | ✅ | 2026-07-01 |
+| TASK-005 | **VERIFY**: Validasi JSON semua 9 file tema — harus valid. Cek scope: tidak boleh ada ` - ` dan tidak boleh scope >100 karakter. Pastikan tidak ada key `quickInput.list.focusBackground`. | ✅ | 2026-07-01 |
+| TASK-006 | **APPROVAL**: Tunggu konfirmasi eksplisit user untuk melanjutkan ke Phase 2. | ⏳ | — |
+
+> **Bonus fix**: Selain task di atas, ditemukan dan diperbaiki juga trailing commas pre-existing di 5 file tema (`Mayukai-alucard`, `Mayukai-darker`, `Mayukai-mirage-darker`, `Mayukai-mirage-gruvbox`, `Mayukai-mono`) yang menyebabkan JSON tidak valid. Trailing comma dihapus menggunakan regex `,(\s*[}\]])` → `$1`.
 
 ---
 
@@ -63,21 +64,21 @@ Seluruh perbaikan menggunakan warna dari palet yang **sudah ada** di masing-masi
 
 | Task     | Description                                                                                                                                                                                                                       | Completed | Date |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---- |
-| TASK-007 | **Tambahkan scope yang hilang di Mayukai Midnight** (`themes/Mayukai-midnight.json`). Tambahkan tokenColor rules dengan warna dari palet Midnight yang sudah ada. Detail:                                                         |           |      |
-|          | 📍 `entity.name.type` — foreground: `#F29668` (orange, dari palet `keyword.operator`)                                                                                                                                              |           |      |
-|          | 📍 `constant.language.boolean` — foreground: `#D4BFFF` (lavender, dari palet `variable.other.constant`)                                                                                                                            |           |      |
-|          | 📍 `storage.type.class` — foreground: `#F07178`, fontStyle: `italic` (merah, dari palet `support.function`)                                                                                                                        |           |      |
-|          | 📍 `support.class.promise` — foreground: `#F28779` (merah-muda, dari palet `variable.member`)                                                                                                                                      |           |      |
-|          | 📍 `variable.language.this` — foreground: `#F28779`, fontStyle: `italic`                                                                                                                                                           |           |      |
-|          | 📍 `keyword.operator.new` — foreground: `#F07178` (merah, dari palet `support.function`)                                                                                                                                           |           |      |
-|          | Catatan: `entity.name.class` dan `support.type.primitive` TIDAK PERLU ditambah karena parent scope (`entity.name`=`#FF8F40` dan `support.type`=`#9CD1BB`) sudah memberikan warna yang identik dengan scope spesifik di tema lain. |           |      |
-| TASK-008 | **Tambahkan scope yang hilang di Mayukai Sunset** (`themes/Mayukai-sunset-color-theme.json`). Tambahkan tokenColor rules:                                                                                                         |           |      |
-|          | 📍 `entity.name.type` — foreground: `#F29668` (orange)                                                                                                                                                                             |           |      |
-|          | 📍 `constant.language.boolean` — foreground: `#FFA759` (yellow-orange, dari palet `storage.type`)                                                                                                                                  |           |      |
-|          | 📍 `storage.type.class` — foreground: `#F07178`, fontStyle: `italic` (merah)                                                                                                                                                       |           |      |
-|          | Catatan: `entity.name.class` TIDAK PERLU ditambah karena parent `entity.name`=`#FF8F40` sudah identik.                                                                                                                            |           |      |
-| TASK-009 | **VERIFY**: Periksa bahwa Midnight dan Sunset sekarang memiliki total token rules yang bertambah (+6 untuk Midnight, +3 untuk Sunset). Periksa tidak ada duplikasi scope dalam satu tema. Validasi JSON valid.                    |           |      |
-| TASK-010 | **APPROVAL**: Tunggu konfirmasi eksplisit user untuk melanjutkan ke Phase 3.                                                                                                                                                      |           |      |
+| TASK-007 | **Tambahkan scope yang hilang di Mayukai Midnight** (`themes/Mayukai-midnight.json`). Tambahkan tokenColor rules dengan warna dari palet Midnight yang sudah ada. Detail:                                                         | ✅ | 2026-07-01 |
+|          | 📍 `entity.name.type` — foreground: `#F29668` (orange, dari palet `keyword.operator`)                                                                                                                                              | | |
+|          | 📍 `constant.language.boolean` — foreground: `#D4BFFF` (lavender, dari palet `variable.other.constant`)                                                                                                                            | | |
+|          | 📍 `storage.type.class` — foreground: `#F07178`, fontStyle: `italic` (merah, dari palet `support.function`)                                                                                                                        | | |
+|          | 📍 `support.class.promise` — foreground: `#F28779` (merah-muda, dari palet `variable.member`)                                                                                                                                      | | |
+|          | 📍 `variable.language.this` — foreground: `#F28779`, fontStyle: `italic`                                                                                                                                                           | | |
+|          | 📍 `keyword.operator.new` — foreground: `#F07178` (merah, dari palet `support.function`)                                                                                                                                           | | |
+|          | Catatan: `entity.name.class` dan `support.type.primitive` TIDAK PERLU ditambah karena parent scope (`entity.name`=`#FF8F40` dan `support.type`=`#9CD1BB`) sudah memberikan warna yang identik dengan scope spesifik di tema lain. | | |
+| TASK-008 | **Tambahkan scope yang hilang di Mayukai Sunset** (`themes/Mayukai-sunset-color-theme.json`). Tambahkan tokenColor rules:                                                                                                         | ✅ | 2026-07-01 |
+|          | 📍 `entity.name.type` — foreground: `#F29668` (orange)                                                                                                                                                                             | | |
+|          | 📍 `constant.language.boolean` — foreground: `#FFA759` (yellow-orange, dari palet `storage.type`)                                                                                                                                  | | |
+|          | 📍 `storage.type.class` — foreground: `#F07178`, fontStyle: `italic` (merah)                                                                                                                                                       | | |
+|          | Catatan: `entity.name.class` TIDAK PERLU ditambah karena parent `entity.name`=`#FF8F40` sudah identik.                                                                                                                            | | |
+| TASK-009 | **VERIFY**: Periksa bahwa Midnight dan Sunset sekarang memiliki total token rules yang bertambah (+6 untuk Midnight, +3 untuk Sunset). Periksa tidak ada duplikasi scope dalam satu tema. Validasi JSON valid.                    | ✅ | 2026-07-01 |
+| TASK-010 | **APPROVAL**: Tunggu konfirmasi eksplisit user untuk melanjutkan ke Phase 3.                                                                                                                                                      | ⏳ | — |
 
 ---
 
@@ -87,7 +88,7 @@ Seluruh perbaikan menggunakan warna dari palet yang **sudah ada** di masing-masi
 
 | Task     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Completed | Date |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- | ---- |
-| TASK-011 | **Tambahkan `editorBracketHighlight.foreground1`–`foreground6` ke semua 9 tema**. Setiap tema mendapat 6 warna dari palet foreground-nya sendiri. Detail per tema: | | |
+| TASK-011 | **Tambahkan `editorBracketHighlight.foreground1`–`foreground6` ke semua 9 tema**. Setiap tema mendapat 6 warna dari palet foreground-nya sendiri. Detail per tema: | ✅ | 2026-07-01 |
 |          | **Mayukai-alucard**: `#ff6188`, `#fc4085`, `#f5ba78`, `#95fb79`, `#5ccfe6`, `#d495f6` | | |
 |          | **Mayukai-darker**: `#ff6188`, `#ff8f40`, `#ffcc66`, `#c2d94c`, `#5ccfe6`, `#d4bfff` | | |
 |          | **Mayukai-midnight**: `#f07178`, `#ffa759`, `#ffcc66`, `#a9dc76`, `#77a8d9`, `#d2a6ff` | | |
@@ -99,9 +100,9 @@ Seluruh perbaikan menggunakan warna dari palet yang **sudah ada** di masing-masi
 |          | **Mayukai-sunset**: `#f07178`, `#ffa759`, `#ffcc66`, `#a9dc76`, `#77a8d9`, `#d4bfff` | | |
 |          | — | | |
 |          | **Tambahkan juga `editorBracketHighlight.unexpectedBracket.foreground` ke semua 9 tema**: `#ff3333` untuk semua tema, dengan pengecualian: Gruvbox `#fb4934`, Midnight `#ff6666`. | | |
-| TASK-012 | **Tambahkan `editorBracketPairGuide.activeBackground1`–`activeBackground6` dan `editorBracketPairGuide.background1`–`background6` ke semua 9 tema**. Gunakan warna yang sama dengan `editorBracketHighlight.foreground*` tetapi dengan alpha dikurangi: inactive `26` (~15%), active `99` (~60%). | | |
-| TASK-013 | **Tambahkan `editorInlayHint.background` dan `editorInlayHint.foreground` ke semua 9 tema**. Gunakan `editorSuggestWidget.background` untuk background (fallback: `editor.background`) dan `editor.foreground` + alpha `99` untuk foreground. | | |
-| TASK-014 | **VERIFY**: 9 tema menambahkan **21 color key baru** per tema (= 189 total keys). **CON-004**: setiap hex color dari tokenColors/colors tema sendiri. **REQ-005**: hue antar 6 bracket tidak <30°. JSON valid, tidak ada duplikasi key. | | |
+| TASK-012 | **Tambahkan `editorBracketPairGuide.activeBackground1`–`activeBackground6` dan `editorBracketPairGuide.background1`–`background6` ke semua 9 tema**. Gunakan warna yang sama dengan `editorBracketHighlight.foreground*` tetapi dengan alpha dikurangi: inactive `26` (~15%), active `99` (~60%). | ✅ | 2026-07-01 |
+| TASK-013 | **Tambahkan `editorInlayHint.background` dan `editorInlayHint.foreground` ke semua 9 tema**. Gunakan `editorSuggestWidget.background` untuk background (fallback: `editor.background`) dan `editor.foreground` + alpha `99` untuk foreground. | ✅ | 2026-07-01 |
+| TASK-014 | **VERIFY**: 9 tema menambahkan **21 color key baru** per tema (= 189 total keys). **CON-004**: setiap hex color dari tokenColors/colors tema sendiri. **REQ-005**: hue antar 6 bracket tidak <30°. JSON valid, tidak ada duplikasi key. | ✅ | 2026-07-01 |
 
 ---
 
@@ -111,12 +112,12 @@ Seluruh perbaikan menggunakan warna dari palet yang **sudah ada** di masing-masi
 
 | Task     | Description | Completed | Date |
 | -------- | ----------- | --------- | ---- |
-| TASK-016 | **Validasi JSON**: Jalankan validasi JSON pada semua 9 file tema. Semua harus valid. | | |
-| TASK-017 | **Validasi struktur tema VS Code**: Setiap file harus memiliki key `name`, `type` (harus `"dark"`), `colors` (object), `tokenColors` (array), `semanticHighlighting` (boolean). | | |
-| TASK-018 | **Validasi konsistensi**: Semua tema harus memiliki setidaknya token rules yang comparable. Midnight (~83→89) dan Sunset (~87→90) harus bertambah. | | |
-| TASK-019 | **Update CHANGELOG.md**: Tambahkan entry untuk versi 3.3.0 yang mendokumentasikan semua perbaikan. | | |
-| TASK-020 | **Update package.json version**: Bump versi dari `3.2.4` ke `3.3.0`. | | |
-| TASK-021 | **FINAL APPROVAL**: Serahkan hasil akhir ke user untuk diuji langsung di VS Code Extension Development Host. | | |
+| TASK-016 | **Validasi JSON**: Jalankan validasi JSON pada semua 9 file tema. Semua harus valid. | ✅ | 2026-07-01 |
+| TASK-017 | **Validasi struktur tema VS Code**: Setiap file harus memiliki key `name`, `type` (harus `"dark"`), `colors` (object), `tokenColors` (array), `semanticHighlighting` (boolean). | ✅ | 2026-07-01 |
+| TASK-018 | **Validasi konsistensi**: Semua tema harus memiliki setidaknya token rules yang comparable. Midnight (~83→89) dan Sunset (~87→90) harus bertambah. | ✅ | 2026-07-01 |
+| TASK-019 | **Update CHANGELOG.md**: Tambahkan entry untuk versi 3.3.0 yang mendokumentasikan semua perbaikan. | ✅ | 2026-07-01 |
+| TASK-020 | **Update package.json version**: Bump versi dari `3.2.4` ke `3.3.0`. | ✅ | 2026-07-01 |
+| TASK-021 | **FINAL APPROVAL**: Serahkan hasil akhir ke user untuk diuji langsung di VS Code Extension Development Host. | ⏳ | — |
 
 ---
 
